@@ -1,0 +1,183 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Media Queries</title>
+  <!-- Set the Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS -->
+  <style>
+
+
+
+                                                                         /*  slide*/
+
+body {
+  background: black;
+  margin: 0;
+  overflow: hidden;
+}
+
+  </style>
+
+</head> 
+<body>
+
+<canvas id="c"></canvas>
+
+
+
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+
+
+
+var c = document.getElementById('c')
+var ctx = c.getContext('2d')
+
+window.addEventListener('resize', function() {
+  c.width = window.innerWidth
+  c.height = window.innerHeight
+})
+
+window.dispatchEvent(new Event('resize'))
+
+var mouse = { x: 0, y: 0, old_x: undefined, old_y: undefined }
+
+window.addEventListener('mousemove', function(e) {
+  mouse.old_x = mouse.x
+  mouse.old_y = mouse.y
+  mouse.x = e.clientX
+  mouse.y = e.clientY
+})
+
+window.addEventListener('click', function(e) {
+  addRipple(e.clientX, e.clientY)
+  clearTimeout(sampleTimer)
+})
+
+function addRipple(x, y) {
+  ripples.push({
+    x: x,
+    y: y,
+    distance: 0
+  })
+}
+
+var w = 100
+var h = 100
+var spacing = 20
+var grid = []
+var ripples = []
+
+for(var y = 0; y < w; y++) {
+  grid[y] = []
+  for(var x = 0; x < w; x++) {
+    grid[y][x] = {
+      radius: 2,
+      color: '#'+Math.floor(Math.random()*16777215).toString(16)
+    }
+  }
+}
+
+CanvasRenderingContext2D.prototype.circle = function (x, y, r) {
+  this.beginPath()
+  this.arc(x, y, r, 0, 2 * Math.PI, false)
+  this.closePath()
+}
+
+var angleTools = {
+  getAngle: function(obj1, obj2) {
+    var dX = obj2.x - obj1.x
+    var dY = obj2.y - obj1.y
+    return Math.atan2(dY, dX) / Math.PI * 180
+  },
+  getDistance: function(obj1, obj2) {
+    var dx = obj1.x - obj2.x
+    var dy = obj1.y - obj2.y
+    return Math.sqrt(dx * dx + dy * dy)
+  },
+  moveOnAngle: function(obj, distance) {
+    var vel = this.getOneFrameDistance(obj, distance)
+    obj.x += vel.x
+    obj.y += vel.y
+  },
+  getOneFrameDistance: function(obj, speed) {
+    return {
+      x: speed * Math.cos(obj.rotation * Math.PI / 180),
+      y: speed * Math.sin(obj.rotation * Math.PI / 180)
+    }
+  }
+}
+
+function render() {
+  ctx.clearRect(0, 0, c.width, c.height)
+  
+  for(var i = 0; i < ripples.length; i++) {
+    ripples[i].distance += 10
+  }
+  
+  for(var y = 0; y < grid.length; y++) {
+    for(var x = 0; x < grid[y].length; x++) {
+      // ctx.fillStyle = '#'+Math.floor(Math.random()*16777215).toString(16)
+      ctx.fillStyle = grid[y][x].color
+      
+      var pos      = { x: x * spacing, y: y * spacing }
+      pos.rotation = angleTools.getAngle(mouse, pos)
+      pos.radius   = grid[y][x].radius
+      // angleTools.moveOnAngle(pos, 20)
+      
+      for(var j = 0; j < ripples.length; j++) {
+        var distanceFromRippleCenter = angleTools.getDistance(ripples[j], pos)
+        if(distanceFromRippleCenter > ripples[j].distance - 20 && distanceFromRippleCenter < ripples[j].distance + 20) {
+          pos.radius *= 2
+          if(pos.radius > 50) pos.radius = 50
+        }
+      }
+      
+      
+      ctx.circle(pos.x, pos.y, pos.radius)
+      ctx.fill()
+    }
+  }
+}
+
+window.requestAnimFrame = (function(){
+  return window.requestAnimationFrame    ||
+    window.webkitRequestAnimationFrame ||
+    window.mozRequestAnimationFrame    ||
+    function(callback){
+      window.setTimeout(callback, 1000 / 60)
+    }
+})()
+
+;(function animloop(){
+  requestAnimFrame(animloop)
+  render()
+})()
+
+// r( max, min, decimal places)
+function r(a,b,c){ return parseFloat((Math.random()*((a?a:1)-(b?b:0))+(b?b:0)).toFixed(c?c:0)); }
+
+
+// sample stuff
+
+var sampleX = 0
+var sampleSpeed = 500
+var sampleTimer;
+function sample() {
+  sampleX = sampleX ? 0 : 1
+  
+  // addRipple(sampleX ? c.width/2 - c.width/4 : c.width/2 + c.width/4, c.height/2)
+  
+  sampleTimer = setTimeout(sample, sampleSpeed)
+}
+
+sampleTimer = setTimeout(sample, sampleSpeed)
+
+
+</script>
+</body>
+</html>
