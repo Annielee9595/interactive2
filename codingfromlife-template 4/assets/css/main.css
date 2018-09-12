@@ -1,0 +1,185 @@
+body {
+	background: #cccccc;
+}
+
+.stage {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: blue;
+	position: relative;
+	z-index: -2;
+}
+
+#triangle {
+	width: 0;
+	height: 0;
+	border-left: 75px solid transparent;
+	border-right: 75px solid transparent;
+	border-bottom: 150px solid yellow;
+	position: absolute;
+	top: 203px;
+	left: 60px;
+}
+
+#square {
+	width: 150px;
+	height: 150px;
+	background: red;
+	top: 203px;
+	left: 270px;
+	position: absolute;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#top {
+	width: 50px;
+	height: 20px;
+	background: red;
+	top: 340px;
+	left: 250px;
+	position: absolute;
+	border-radius: 45%;
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+#square1 {
+	width: 5px;
+	height: 200px;
+	background: green;
+	top: 203px;
+	left: 270px;
+	position: absolute;
+
+
+
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+
+
+#bottom {
+	width: 850px;
+	height: 100px;
+	background: yellow;
+	top: 410px;
+	left: 50px;
+	position: absolute;
+	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+	z-index: -1;
+
+
+
+
+
+	/* uncomment to add keyframe animation */
+	/* animation: spin 2s infinite; */
+
+}
+#bird {
+	width: 200px;
+	height: 200px;
+	background: orange;
+	top: 300px;
+	left: 500px;
+	position: absolute;
+    clip-path: polygon(60% 49%, 68% 5%, 87% 13%, 74% 17%, 75% 87%, 54% 84%, 31% 88%, 29% 60%, 10% 4%, 43% 51%);
+}
+#circle {
+	width: 150px;
+	height: 150px;
+	background: red;
+	border-radius: 150px;
+	top: 350px;
+	left: 200px;
+	position: absolute;
+	z-index: 1;
+
+}
+#circle2 {
+	width: 50px;
+	height: 50px;
+	background: orange;
+	border-radius: 150px;
+	top: 430px;
+	left: 450px;
+	position: absolute;
+	z-index: 2;
+
+}
+#circleflower {
+	width: 50px;
+	height: 50px;
+	background: black;
+	border-radius: 150px;
+	top: 90px;
+	left: 300px;
+	position: absolute;
+	z-index: 2;
+	clip-path: ellipse(25% 23% at 50% 50%);
+
+}
+
+#halfcircle {
+	width: 150px;
+	height: 150px;
+	background: brown;
+	border-radius: 150px;
+	top: 350px;
+	left: 200px;
+	position: absolute;
+	z-index: 3;
+	clip-path: circle(61.2% at 50% 100%);
+
+}
+
+
+
+#clip {
+	width: 150px;
+	height: 150px;
+	background: green;
+	clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+	top: 203px;
+	left: 690px;
+	position: absolute;
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
