@@ -6,7 +6,7 @@ body {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
-	background: blue;
+	background: #87CEFA;
 	position: relative;
 	z-index: -2;
 }
@@ -51,9 +51,9 @@ body {
 
 #square1 {
 	width: 5px;
-	height: 200px;
+	height: 300px;
 	background: green;
-	top: 203px;
+	top: 160px;
 	left: 270px;
 	position: absolute;
 
@@ -71,7 +71,7 @@ body {
 	height: 100px;
 	background: yellow;
 	top: 410px;
-	left: 50px;
+	left: 30px;
 	position: absolute;
 	clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
 	z-index: -1;
@@ -87,7 +87,7 @@ body {
 #bird {
 	width: 200px;
 	height: 200px;
-	background: orange;
+	background: #F08080;
 	top: 300px;
 	left: 500px;
 	position: absolute;
@@ -116,12 +116,12 @@ body {
 
 }
 #circleflower {
-	width: 50px;
-	height: 50px;
+	width: 70px;
+	height: 70px;
 	background: black;
 	border-radius: 150px;
-	top: 90px;
-	left: 300px;
+	top: 110px;
+	left: 240px;
 	position: absolute;
 	z-index: 2;
 	clip-path: ellipse(25% 23% at 50% 50%);
@@ -155,6 +155,121 @@ body {
 	/* uncomment for css transitions */
 	/* transition: all 400ms ease; */
 }
+
+
+
+
+.ped {
+
+  right: 0;
+  top: 50px;
+  left: -350px;
+  position: absolute;
+  margin: auto;
+  width: 0;
+  transform-origin: bottom center;
+  border-left: 1.2em solid transparent;
+  border-right: 1.2em solid transparent;
+  z-index: -2;
+  border-radius: 50%;
+
+}
+/*.ped:before {
+  box-shadow: 0 0 0px 0px #222;
+  top: -120px;
+  left: -26px;
+  width: 52px;
+  height: 27px;
+  border-radius: 26px 26px 0 0;
+  border-top: 2px solid #222;
+  border-right: 2px solid #222;
+  border-left: 2px solid #222;
+}*/
+
+.ped:nth-child(odd) {
+  border-top: 95px solid #FFD700;
+}
+.ped:nth-child(odd):before {
+  background: #FFD700;
+}
+
+.ped:nth-child(even) {
+  border-top: 95px solid #FAFAD2;
+}
+.ped:nth-child(even):before {
+  background: #FAFAD2;
+}
+
+.ped:nth-of-type(3) {
+  transform: rotate(30deg);
+}
+
+.ped:nth-of-type(4) {
+  transform: rotate(60deg);
+}
+
+.ped:nth-of-type(5) {
+  transform: rotate(90deg);
+}
+
+.ped:nth-of-type(6) {
+  transform: rotate(120deg);
+}
+
+.ped:nth-of-type(7) {
+  transform: rotate(150deg);
+}
+
+.ped:nth-of-type(8) {
+  transform: rotate(180deg);
+}
+
+.ped:nth-of-type(9) {
+  transform: rotate(-30deg);
+}
+
+.ped:nth-of-type(10) {
+  transform: rotate(-60deg);
+}
+
+.ped:nth-of-type(11) {
+  transform: rotate(-90deg);
+}
+
+.ped:nth-of-type(12) {
+  transform: rotate(-120deg);
+}
+
+.ped:nth-of-type(13) {
+  transform: rotate(-150deg);
+}
+
+/*#cc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff131;
+  width: 20px;
+  height: 20px;
+ 
+  border-radius: 50%;
+}*/
+/*#murakami:before {
+  border-radius: 50%;
+  width: 265px;
+  height: 265px;
+  background: #ccc;
+  z-index: -2;
+  left: -80px;
+  top: -80px;
+}
+*/
+
+
+
 
 /* animations */
 
