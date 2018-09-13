@@ -1,0 +1,179 @@
+@font-face {
+  font-family: 'Didact Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Didact Gothic Regular'), local('DidactGothic-Regular'), url(https://fonts.gstatic.com/s/didactgothic/v11/ahcfv8qz1zt6hCC5G4F_P4ASlUuYow.ttf) format('truetype');
+}
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -mox-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  background: #212121;
+  margin: 0;
+  padding: 0;
+}
+.cage {
+  width: 600px;
+  margin: 0 auto;
+}
+.cosmic-logo {
+  width: 100%;
+  height: 200px;
+  background: #0B1A20;
+  position: relative;
+  overflow: hidden;
+}
+.strawberry {
+  position: absolute;
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 3em;
+  color: #193C44;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 29px;
+  margin: 0;
+  bottom: 0;
+  left: 25px;
+}
+.strawberry span {
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  position: relative;
+  display: inline-block;
+}
+.cosmic {
+  position: absolute;
+  top: 25px;
+  left: 10px;
+  width: 100%;
+  height: auto;
+}
+.c-one,
+.c-two,
+.o-one {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+}
+.c-two {
+  right: 25px;
+}
+.c-top,
+.c-bottom,
+.c-top.red,
+.c-bottom.red {
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  width: 100px;
+  height: 50px;
+  background: #00683E;
+  -webkit-border-radius: 100px 100px 0 0;
+  -moz-border-radius: 100px 100px 0 0;
+  border-radius: 100px 100px 0 0;
+}
+.c-bottom,
+.c-bottom.red {
+  width: 100px;
+  height: 50px;
+  background: #023E4F;
+  -webkit-border-radius: 100px 100px 0 0;
+  -moz-border-radius: 100px 100px 0 0;
+  border-radius: 100px 100px 0 0;
+  position: absolute;
+  top: 0;
+}
+.c-top.red {
+  background: #EF403E;
+}
+.c-bottom.red {
+  background: #A42132;
+}
+.o-one {
+  left: 90px;
+}
+.o {
+  width: 100px;
+  height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+}
+.orange {
+  background: #F7913D;
+}
+.s-one {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 200px;
+}
+.s-top {
+  position: absolute;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  width: 100px;
+  height: 50px;
+  background: #AE4A9B;
+  -webkit-border-radius: 100px 100px 0 0;
+  -moz-border-radius: 100px 100px 0 0;
+  border-radius: 100px 100px 0 0;
+}
+.s-bottom {
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  width: 100px;
+  height: 50px;
+  background: #952889;
+  -webkit-border-radius: 100px 100px 0 0;
+  -moz-border-radius: 100px 100px 0 0;
+  border-radius: 100px 100px 0 0;
+  position: absolute;
+  top: 0;
+}
+.m-one {
+  position: absolute;
+  left: 280px;
+}
+.m-left,
+.m-right {
+  width: 0;
+  height: 0;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  position: absolute;
+  border-bottom: 100px solid #25B359;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  left: 0;
+}
+.m-right {
+  left: 35px;
+  border-bottom: 100px solid #00A79C;
+}
+.i-one {
+  position: absolute;
+  left: 430px;
+}
+.i {
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  width: 40px;
+  height: 100px;
+  display: block;
+}
+/* ----- [ Mixins ] ----- */
+#fps {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 10px;
+}

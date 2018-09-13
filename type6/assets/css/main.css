@@ -1,0 +1,30 @@
+/*canvas {
+  display: block;
+  border: 1px solid #123;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  
+}*/
+
+pre {
+  height: 1em;
+  color: white;
+}
+.reset{color: white;}
+
+
+
+
+/*body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+*/
