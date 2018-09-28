@@ -1,17 +1,24 @@
 body{
   background: white;
+  padding: 0;
+  margin: 0;
 }
 
 
 
 .frame{
-  background: #fff;
+  /*background: #fff;*/
   width: 90px;
   height: 90px;
-  padding: 60px; 
+  padding: 90px; 
   float: left;
   display: inline;
   margin: 5px;
+  
+  /*border-style: solid;*/
+  /*border-color: coral;*/
+   /*transform: scale(1);*/
+
 }
 
 
@@ -609,7 +616,8 @@ left:350px;
 
 }
 .ssquaregg{
-  display: none}
+  display: none;
+}
 
 .ssquare{
   position:relative;
@@ -1160,6 +1168,7 @@ left:350px;
   position: relative;
   display: block;
   height: 100px;
+
 }
 .s:before{
   position: absolute;
@@ -1659,7 +1668,9 @@ left:350px;
 
 
 .frame {
-  background: #fff;
+  position: relative;
+
+  /*background: #fff;*/
   width: 90px;
   height: 90px;
   padding: 60px;

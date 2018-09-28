@@ -1,5 +1,5 @@
 body{
-  background: white;
+  /*background: red;*/
 }
 
 .container{
@@ -9,7 +9,7 @@ body{
 
 
 .frame{
-  background: #fff;
+  /*background: #fff;*/
   width: 90px;
   height: 90px;
   padding: 60px; 
@@ -17,6 +17,7 @@ body{
   display: inline;
   margin: 5px;
 }
+
 
 .aa {
   color: white;
@@ -26,6 +27,7 @@ body{
   font-family: 'Quicksand', sans-serif;
   display: none;
 }
+
 
 .zzz {
   color: white;
@@ -437,8 +439,16 @@ body{
 }
 
 .squaregroup{
- display: none;
+ /*display: none;*/
+ opacity: 0;
+ transition: 400ms all;
 }
+
+.a:hover .squaregroup{
+  opacity: 1;
+}
+
+
 .squaregroup2{
  display: none;
 
@@ -912,7 +922,7 @@ left:350px;
 
 
 .e,.e-half{
-  /*display: block;*/
+  
   height: 100px;
   z-index: -1px;
 
@@ -1686,7 +1696,7 @@ left:350px;
 
 
 .frame {
-  background: #fff;
+  /*background: #fff;*/
   width: 90px;
   height: 90px;
   padding: 60px;
@@ -2032,4 +2042,13 @@ pre {
 
 .disappear{
   display: none;
+}
+
+
+.a{
+  
+}
+
+.a:hover{
+  
 }

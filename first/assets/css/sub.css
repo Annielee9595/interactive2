@@ -1,0 +1,28 @@
+.frame{
+  transform: scale(6);
+  margin-top: 300px;
+  margin-left: 320px;
+  margin-right: 328px;
+}
+
+/*
+.typefaceScale{
+  transform: scale(2);
+}
+.centeredBox{
+  position: absolute;
+  left: -5px;
+  top: -27px; 
+}*/
+
+.windowBox{
+  position: relative;
+  left: 0;
+  top: 0;
+  /*화면조정용 > px로 바꿔서 조정*/
+  width: 1000vw;
+  /*화면조정용 end */
+  height: 100vh;
+  background: white;
+  overflow: hidden;
+}
