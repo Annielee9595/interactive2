@@ -10,7 +10,7 @@ $(document).ready(function() {
     $('body').css({
       'background-color' : 'rgb('+ yPos/5 + ', ' + xPos/3 + ', ' + (xPos*yPos)  /10 + ')',
     });
-    $('.eightt, .nineee, .aa, .cc, .dd, .ee, .ff, .gg, .hh, .ii, .jj, .kk, .ll, .mm, .nn, .oo, .pp, .qq, .rr, .ss, .tt, .uu, .vv, .ww, .xx, .yy, .zz, .onee, .twoo, .thre, .fourr, .fiveee, .sixxx, .sevenn, .tenn ').css({
+    $('.eightt, .nineee, .aa, .bb, .cc, .dd, .ee, .ff, .gg, .hh, .ii, .jj, .kk, .ll, .mm, .nn, .oo, .pp, .qq, .rr, .ss, .tt, .uu, .vv, .ww, .xx, .yy, .zz, .onee, .twoo, .thre, .fourr, .fiveee, .sixxx, .sevenn, .tenn ').css({
       'color' : 'rgb('+ yPos/5 + ', ' + xPos/3 + ', ' + (xPos*yPos)  /10 + ')',
     });
   });
@@ -190,6 +190,7 @@ $(document).ready(function() {
         $('.ee').addClass('appear');
         $('.ll').addClass('appear');
         $('.jsquaregroup').addClass('appear');
+        $('.aa').addClass('appear');
     });
 
      $('.e').click(function() {
