@@ -20,9 +20,12 @@
   left: 0;
   top: 0;
   /*화면조정용 > px로 바꿔서 조정*/
-  width: 1000vw;
+  width: 8000px;
   /*화면조정용 end */
   height: 100vh;
   background: white;
   overflow: hidden;
 }
+
+a{color: white;}
+
