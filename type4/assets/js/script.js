@@ -215,6 +215,8 @@ $(document).ready(function() {
         $('.mm').toggleClass('appear');
         $('.thre').toggleClass('appear');
         $('.jj').toggleClass('appear');
+        $('.tenn').toggleClass('appear');
+        $('.asquaregg').toggleClass('appear');
     });
 
      $('.aa').click(function() {
@@ -233,6 +235,8 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.h').click(function() {
         $('.hh').toggleClass('appear');
+        $('.onee').toggleClass('appear');
+        $('.osquaregroup').toggleClass('appear');
     });
 
      $('.aa').click(function() {
@@ -250,6 +254,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.i').click(function() {
         $('.ii').toggleClass('appear');
+        $('.osquaregroup').toggleClass('appear');
     });
 
      $('.aa').click(function() {

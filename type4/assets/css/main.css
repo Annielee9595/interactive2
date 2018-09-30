@@ -178,7 +178,7 @@ body{
   color: white;
   position: relative;
   font-size: 100px;
-  top:0px;
+  top:-40px;
   left: 0px;
   font-family: 'Quicksand', sans-serif;
   z-index: 1;
@@ -843,18 +843,19 @@ left:350px;
 
 
 .n{
-  position:absolute;
+  position:relative;
   float: left;
- top:290px;
+  top: -6px;
   margin-left: 15px;
   border-left: 0px solid transparent;
   border-right: 100px solid transparent;
   border-bottom: 120px solid black;
+
 }
 .n:before{
   display:block;
   content:"";
- 
+  /*top:-295px;*/
   position:absolute;
   height: 120px;
   width: 50px;
@@ -1580,6 +1581,64 @@ background-color: black;
     top: -170px;
     left: 80px;
 }
+
+.osquaregroup{
+ display: none;
+}
+
+.o1{
+  background-color: white;
+   left: 63px;
+    top: -82px;
+}
+
+.o2{
+  top: -100px;
+}
+
+.o3{
+background-color: white;
+left: 50px;
+    top: -100px;
+}
+.o4{
+background-color: black
+top: 120px;
+}
+.o5{
+  background-color: black;
+  top:0px;
+  left: 70px;
+}
+.o6{
+background-color: black;
+top: -50px;
+left: 90px;
+}
+
+.o7{
+background-color: black;
+top: -100px;
+left: 120px;
+}
+
+.o8{
+background-color: black;
+    top: 0px;
+    left: 80px;
+}
+.o9{
+background-color: white;
+top: -61px;
+    left: 43px;
+}
+.o10{
+background-color: black;
+    top: -170px;
+    left: 80px;
+}
+
+
 
 .jsquaregroup{
  display: none;
