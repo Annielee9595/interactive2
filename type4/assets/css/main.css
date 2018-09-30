@@ -585,263 +585,6 @@ left:350px;
   display: none;
 }*/
 
-.asquare{
-  position:absolute;
-  top: 140px;
-  width: 160px;
-  left:60px;
-  height: 10px;
-  background-color: black;
-  /*display: none;*/
-  transform: rotate(45deg);
-
-}
-
-.asquare2{
-  position:absolute;
-  top: 140px;
-  width: 160px;
-  left:60px;
-  height: 10px;
-  background-color: black;
-  /*display: none;*/
-  transform: rotate(-45deg);
-
-}
-.asquaregg{
-  display: none}
-
-.wsquaregg{
-  display: none}
-
-.wsquare{
-  position:relative;
-  top: -80px;
-  width: 160px;
-  left:-40px;
-  height: 10px;
-  background-color: black;
-  /*display: none;*/
-  transform: rotate(45deg);
-
-}
-
-.wsquare2{
-  position:relative;
-  top: -80px;
-  width: 160px;
-  left:-40px;
-  height: 10px;
-  background-color: black;
-  /*display: none;*/
-  transform: rotate(-45deg);
-
-}
-.ssquaregg{
-  display: none}
-
-.ssquare{
-  position:relative;
-  top: -67px;
-  width: 160px;
-  left:-40px;
-  height: 10px;
-  background-color: black;
-  /*display: none;*/
-  transform: rotate(45deg);
-
-}
-
-.ssquare2{
-  position:relative;
-  top: -80px;
-  width: 160px;
-  left:-40px;
-  height: 10px;
-  background-color: black;
-  /*display: none;*/
-  transform: rotate(-45deg);
-
-}
- .longc{display: none}
- .longq{display: none}
- .longeight{display: none}
-
-.clong{    position: relative;
-    top: -56px;
-    width: 124px;
-    left: 38px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-  .clong1{    position: relative;
-    top: -59px;
-    width: 124px;
-    left: 20px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-   .clong2{    position: relative;
-    top: -62px;
-    width: 124px;
-    left: 2px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-
- .clong3{    position: relative;
-    top: -65px;
-    width: 124px;
-    left: -16px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-  .clong4{    position: relative;
-    top: -68px;
-    width: 124px;
-    left: -34px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-  .clong5{    position: relative;
-    top: -71px;
-    width: 124px;
-    left: -52px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-
-.clong6{    position: relative;
-    top: -73px;
-    width: 124px;
-    left: -70px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-
-
-
-
- .qlong1{    position: relative;
-    top: -59px;
-    width: 124px;
-    left: 20px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-   .qlong2{    position: relative;
-    top: -62px;
-    width: 124px;
-    left: 2px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-
- .qlong3{    position: relative;
-    top: -65px;
-    width: 124px;
-    left: -16px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-  .qlong4{    position: relative;
-    top: -68px;
-    width: 124px;
-    left: -34px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-  .qlong5{    position: relative;
-    top: -71px;
-    width: 124px;
-    left: -52px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-
-.qlong6{    position: relative;
-    top: -73px;
-    width: 124px;
-    left: -70px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-
-.cfillter{filter: blur(7px);
-/*display: none;*/}
-
-
-.eightlong{    position: relative;
-    top: -6px;
-    width: 124px;
-    left: 38px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-  .eightlong1{    position: relative;
-    top: -10px;
-    width: 124px;
-    left: 20px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-   .eightlong2{    position: relative;
-    top: -14px;
-    width: 124px;
-    left: 2px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-
- .eightlong3{    position: relative;
-    top: -16px;
-    width: 124px;
-    left: -16px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-  .eightlong4{    position: relative;
-    top: -18px;
-    width: 124px;
-    left: -34px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-  .eightlong5{    position: relative;
-    top: -21px;
-    width: 124px;
-    left: -52px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
-
-.eightlong6{    position: relative;
-    top: -22px;
-    width: 124px;
-    left: -70px;
-    height: 3px;
-    background-color: black;
-    transform: rotate(90deg);
-  }
 
 
 
@@ -2020,7 +1763,317 @@ background-color: black;
   }
 
 
+.longc{display: none}
+ .longq{display: none}
+ .longeight{display: none}
 
+
+.clong{    position: relative;
+    top: -56px;
+    width: 124px;
+    left: 38px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+  .clong1{    position: relative;
+    top: -59px;
+    width: 124px;
+    left: 20px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+   .clong2{    position: relative;
+    top: -62px;
+    width: 124px;
+    left: 2px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+
+ .clong3{    position: relative;
+    top: -65px;
+    width: 124px;
+    left: -16px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+  .clong4{    position: relative;
+    top: -68px;
+    width: 124px;
+    left: -34px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+  .clong5{    position: relative;
+    top: -71px;
+    width: 124px;
+    left: -52px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+
+.clong6{    position: relative;
+    top: -73px;
+    width: 124px;
+    left: -70px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+
+
+
+
+ .qlong1{    position: relative;
+    top: -59px;
+    width: 124px;
+    left: 20px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+   .qlong2{    position: relative;
+    top: -62px;
+    width: 124px;
+    left: 2px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+
+ .qlong3{    position: relative;
+    top: -65px;
+    width: 124px;
+    left: -16px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+  .qlong4{    position: relative;
+    top: -68px;
+    width: 124px;
+    left: -34px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+  .qlong5{    position: relative;
+    top: -71px;
+    width: 124px;
+    left: -52px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+
+.qlong6{    position: relative;
+    top: -73px;
+    width: 124px;
+    left: -70px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+
+.cfillter{filter: blur(7px);
+/*display: none;*/}
+
+
+.eightlong{    position: relative;
+    top: -6px;
+    width: 124px;
+    left: 38px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+  .eightlong1{    position: relative;
+    top: -10px;
+    width: 124px;
+    left: 20px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+   .eightlong2{    position: relative;
+    top: -14px;
+    width: 124px;
+    left: 2px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+
+ .eightlong3{    position: relative;
+    top: -16px;
+    width: 124px;
+    left: -16px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+  .eightlong4{    position: relative;
+    top: -18px;
+    width: 124px;
+    left: -34px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+  .eightlong5{    position: relative;
+    top: -21px;
+    width: 124px;
+    left: -52px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+
+.eightlong6{    position: relative;
+    top: -22px;
+    width: 124px;
+    left: -70px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.asquare{
+  position:absolute;
+  top: 140px;
+  width: 160px;
+  left:60px;
+  height: 10px;
+  background-color: black;
+  /*display: none;*/
+  transform: rotate(45deg);
+
+}
+
+.asquare2{
+  position:absolute;
+  top: 140px;
+  width: 160px;
+  left:60px;
+  height: 10px;
+  background-color: black;
+  /*display: none;*/
+  transform: rotate(-45deg);
+
+}
+.asquaregg{
+  display: none}
+
+.wsquaregg{
+  display: none}
+
+.wsquare{
+  position:relative;
+  top: -80px;
+  width: 160px;
+  left:-40px;
+  height: 10px;
+  background-color: black;
+  /*display: none;*/
+  transform: rotate(45deg);
+
+}
+
+.wsquare2{
+  position:relative;
+  top: -80px;
+  width: 160px;
+  left:-40px;
+  height: 10px;
+  background-color: black;
+  /*display: none;*/
+  transform: rotate(-45deg);
+
+}
+.ssquaregg{
+  display: none}
+
+.ssquare{
+  position:relative;
+  top: -67px;
+  width: 160px;
+  left:-40px;
+  height: 10px;
+  background-color: black;
+  /*display: none;*/
+  transform: rotate(45deg);
+
+}
+
+.ssquare2{
+  position:relative;
+  top: -80px;
+  width: 160px;
+  left:-40px;
+  height: 10px;
+  background-color: black;
+  /*display: none;*/
+  transform: rotate(-45deg);
+
+}
+
+.bsquaregg{
+  display: none}
+
+.bsquare{
+  position:relative;
+  top: -20px;
+  width: 160px;
+  left:-40px;
+  height: 10px;
+  background-color: black;
+  /*display: none;*/
+  transform: rotate(45deg);
+
+}
+/*
+.disappear{
+  display: none;
+}
+
+.appear{
+  display: initial;
+
+}*/
+.bsquare2{
+  position:relative;
+  top: -34px;
+  width: 160px;
+  left:-40px;
+  height: 10px;
+  background-color: black;
+  /*display: none;*/
+  transform: rotate(-45deg);
+
+}
+ 
 
 
 

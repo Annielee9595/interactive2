@@ -8,75 +8,72 @@ $(document).ready(function() {
     yPos = e.pageY;
     // change div with the id "element"s CSS when you move your mouse 
     $('body').css({
-      'background-color' : 'rgb('+ yPos/5 + ', ' + xPos/3 + ', ' + (xPos*yPos)  /10 + ')',
+      'background-color' : 'rgb('+ yPos/2 + ', ' + xPos/10 + ', ' + (xPos*yPos)  /8 + ')',
     });
     $('.eightt, .nineee, .aa, .bb, .cc, .dd, .ee, .ff, .gg, .hh, .ii, .jj, .kk, .ll, .mm, .nn, .oo, .pp, .qq, .rr, .ss, .tt, .uu, .vv, .ww, .xx, .yy, .zz, .onee, .twoo, .thre, .fourr, .fiveee, .sixxx, .sevenn, .tenn ').css({
-      'color' : 'rgb('+ yPos/5 + ', ' + xPos/3 + ', ' + (xPos*yPos)  /10 + ')',
+      'color' : 'rgb('+ yPos/2 + ', ' + xPos/10 + ', ' + (xPos*yPos)  /8 + ')',
     });
   });
     // $('.frame').click(function() {
     //     var random = Math.floor((Math.random() * 10) + 1);
-    //     $('.frame:nth-child('+random+') div div').addClass('appear');
+    //     $('.frame:nth-child('+random+') div div').toggleClass('appear');
     $('.a').click(function() {
-        $('.aa').addClass('appear');
-        $('.oo').addClass('appear');
-        $('.ww').addClass('appear');
-        $('.yy').addClass('appear');
-        $('.gg').addClass('appear');
-        $('.ii').addClass('appear');
-        $('.rr').addClass('appear');
-        $('.uu').addClass('appear');
-        $('.squaregroup2').addClass('appear');
-        $('.asquaregg').addClass('appear');
-        $('.longq').addClass('appear');
-        $('.').addClass('appear');
-        
-        
-        
+        $('.aa').toggleClass('appear');
+        $('.oo').toggleClass('appear');
+        $('.ww').toggleClass('appear');
+        $('.yy').toggleClass('appear');
+        $('.gg').toggleClass('appear');
+        $('.ii').toggleClass('appear');
+        $('.rr').toggleClass('appear');
+        $('.uu').toggleClass('appear');
+        $('.squaregroup2').toggleClass('appear');
+        $('.asquaregg').toggleClass('appear');
+        $('.longq').toggleClass('appear');
+        $('.').toggleClass('appear');
     });
 
-     $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
-    });
+    //  $('.aa').click(function() {
+    //     $(this).toggleClass('appear');
+    //     $('.squaregroup').toggleClass('appear');
+    // });
 
-     $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
-    });
+    //  $('.squaregroup').click(function() {
+    //     $(this).toggleClass('appear');
+    //     $('.zzz').toggleClass('appear');
+    // });
 
-     $('.zzz').click(function() {
-        $(this).addClass('disappear');
-        $('.asquaregg').addClass('appear');
-    });
-     $('.asquaregg').click(function() {
-        $(this).addClass('disappear');
+    //  $('.zzz').click(function() {
+    //     $(this).toggleClass('appear');
+    //     $('.asquaregg').toggleClass('appear');
+    // });
+    //  $('.asquaregg').click(function() {
+    //     $(this).toggleClass('appear');
         
-    });
+    // });
 
 });
 
 // $(document).ready(function() {
 //     $('.a').click(function() {
-//         $('.aa').addClass('appear');
+//         $('.aa').toggleClass('appear');
 //     });
 
 //      $('.aa').click(function() {
-//         $(this).addClass('disappear');
-//         $('.zzz').addClass('appear');
+//         $(this).toggleClass('appear');
+//         $('.zzz').toggleClass('appear');
 //     });
 
 //      $('.zzz').click(function() {
-//         $(this).addClass('disappear');
-//         $('.asquaregg').addClass('appear');
+//         $(this).toggleClass('appear');
+//         $('.asquaregg').toggleClass('appear');
 //     });
 
 //      $('.asquaregg').click(function() {
-//         $(this).addClass('disappear');
-//         $('.squaregroup').addClass('appear');
+//         $(this).toggleClass('appear');
+//         $('.squaregroup').toggleClass('appear');
 //     });
 //      $('.squaregroup').click(function() {
-//         $(this).addClass('disappear');
+//         $(this).toggleClass('appear');
         
 //     });
 
@@ -87,155 +84,143 @@ $(document).ready(function() {
 
 
 $(document).ready(function() {
+
+
+
+
     $('.b').click(function() {
-        $('.bb').addClass('appear');
-        $('.longc').addClass('appear');
-        $('.ll').addClass('appear');
-        $('.pp').addClass('appear');
-        $('.wsquaregg').addClass('appear');
-        $('.fourr').addClass('appear');
-        $('.ss').addClass('appear');
-        $('.ysquaregroup').addClass('appear');
-
+        $('.bb').toggleClass('appear');
+        $('.longc').toggleClass('appear');
+        $('.ll').toggleClass('appear');
+        $('.pp').toggleClass('appear');
+        $('.wsquaregg').toggleClass('appear');
+        $('.fourr').toggleClass('appear');
+        $('.ss').toggleClass('appear');
+        $('.ysquaregroup').toggleClass('appear');
 
     });
 
-     $('.b').click(function() {
-        $('.aa').addClass('disappear');
-        $('.oo').addClass('disappear');
-        $('.ww').addClass('disappear');
-        $('.yy').addClass('disappear');
-        $('.gg').addClass('disappear');
-        $('.ii').addClass('disappear');
-        $('.rr').addClass('disappear');
-        $('.uu').addClass('disappear');
-        $('.squaregroup2').addClass('appear');
-        $('.longq').addClass('disappear');
-    });
+    
 
-     $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
-    });
+    //  $('.squaregroup').click(function() {
+    //     $(this).toggleClass('appear');
+    //     $('.zzz').toggleClass('appear');
+    // });
 
 });
 
 $(document).ready(function() {
+
+// $('.c').click(function() {
+//       $('.bb').removeClass('appear');
+ 
+//     });
+
     $('.c').click(function() {
-        $('.cc').addClass('appear');
-        $('.onee').addClass('appear');
-        $('.ssquaregg').addClass('appear');
-        $('.nn').addClass('appear');
-        $('.hh').addClass('appear');
-        $('.nineee').addClass('appear');
+        $('.cc').toggleClass('appear');
+        $('.onee').toggleClass('appear');
+        $('.ssquaregg').toggleClass('appear');
+        $('.nn').toggleClass('appear');
+        $('.hh').toggleClass('appear');
+        $('.nineee').toggleClass('appear');
+        $('.bsquaregg').toggleClass('appear');
 
     });
 
-     $('.c').click(function() {
-        $('.bb').addClass('disappear');
-        $('.longc').addClass('disappear');
-        $('.ll').addClass('disappear');
-        $('.pp').addClass('disappear');
-        $('.wsquaregg').addClass('disappear');
-        $('.fourr').addClass('disappear');
-        $('.ss').addClass('disappear');
-        $('.ysquaregroup').addClass('disappear');
-        $('.squaregroup').addClass('disappear');
-        $('.asquaregg').addClass('disappear');
-    });
+     
 
-     $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
-    });
+    //  $('.squaregroup').click(function() {
+    //     $(this).toggleClass('appear');
+    //     $('.zzz').toggleClass('appear');
+    // });
 
 });
 
 $(document).ready(function() {
+
+
+  $('.d').click(function() {
+     
+    });
+
+
+
     $('.d').click(function() {
-        $('.ff').addClass('appear');
-        $('.threesquaregroup').addClass('appear');
-        $('.longeight').addClass('appear');
-        $('.ss').addClass('appear');
-        $('.asquaregg').addClass('appear');
-        $('.sixlongvertical').addClass('appear');
-        $('.zz').addClass('appear');
+        $('.ff').toggleClass('appear');
+        $('.threesquaregroup').toggleClass('appear');
+        $('.longeight').toggleClass('appear');
+        $('.ss').toggleClass('appear');
+        $('.asquaregg').toggleClass('appear');
+        $('.sixlongvertical').toggleClass('appear');
+        $('.zz').toggleClass('appear');
 
     });
 
-     $('.d').click(function() {
-        $('.cc').addClass('disappear');
-        $('.oo').addClass('disappear');
-        $('.ww').addClass('disappear');
-        $('.yy').addClass('disappear');
-        $('.gg').addClass('disappear');
-        $('.ii').addClass('disappear');
-        $('.rr').addClass('disappear');
-        $('.uu').addClass('disappear');
-        $('.squaregroup2').addClass('disappear');
-        $('.asquaregg').addClass('disappear');
-        $('.squaregroup').addClass('disappear');
-    });
+   
 
-     $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
-    });
+    //  $('.squaregroup').click(function() {
+    //     $(this).toggleClass('appear');
+    //     $('.zzz').toggleClass('appear');
+    // });
 
 });
 
 
 $(document).ready(function() {
     $('.e').click(function() {
-        $('.ee').addClass('appear');
-        $('.ll').addClass('appear');
-        $('.jsquaregroup').addClass('appear');
-        $('.aa').addClass('appear');
+        $('.ee').toggleClass('appear');
+        $('.ll').toggleClass('appear');
+        $('.jsquaregroup').toggleClass('appear');
+        $('.aa').toggleClass('appear');
+        $('.bsquaregg').toggleClass('appear');
     });
 
      $('.e').click(function() {
-        $('.ff').addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $('.ff').toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
+
     });
 
 });
 
 $(document).ready(function() {
     $('.f').click(function() {
-        $('.tsquaregroup').addClass('appear');
-        $('.gg').addClass('appear');
+        $('.tsquaregroup').toggleClass('appear');
+        $('.gg').toggleClass('appear');
+        $('.zzz').toggleClass('appear');
+        $('.longeight').toggleClass('appear');
     });
 
      $('.f').click(function() {
-        $('.threesquaregroup').addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $('.threesquaregroup').toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.g').click(function() {
-        $('.gg').addClass('appear');
+        $('.gg').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
@@ -243,34 +228,34 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.h').click(function() {
-        $('.hh').addClass('appear');
+        $('.hh').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.i').click(function() {
-        $('.ii').addClass('appear');
+        $('.ii').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
@@ -278,34 +263,34 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.j').click(function() {
-        $('.jj').addClass('appear');
+        $('.jj').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.k').click(function() {
-        $('.kk').addClass('appear');
+        $('.kk').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
@@ -313,17 +298,17 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.l').click(function() {
-        $('.ll').addClass('appear');
+        $('.ll').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
@@ -331,17 +316,17 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.m').click(function() {
-        $('.mm').addClass('appear');
+        $('.mm').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
@@ -349,17 +334,17 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.n').click(function() {
-        $('.nn').addClass('appear');
+        $('.nn').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
@@ -367,17 +352,17 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.o').click(function() {
-        $('.oo').addClass('appear');
+        $('.oo').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
@@ -385,34 +370,34 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.p').click(function() {
-        $('.pp').addClass('appear');
+        $('.pp').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.q').click(function() {
-        $('.qq').addClass('appear');
+        $('.qq').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
@@ -420,17 +405,17 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.r').click(function() {
-        $('.rr').addClass('appear');
+        $('.rr').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
@@ -438,17 +423,17 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.s').click(function() {
-        $('.ss').addClass('appear');
+        $('.ss').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
@@ -456,17 +441,17 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.t').click(function() {
-        $('.tt').addClass('appear');
+        $('.tt').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
@@ -474,170 +459,170 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.u').click(function() {
-        $('.uu').addClass('appear');
+        $('.uu').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.v').click(function() {
-        $('.vv').addClass('appear');
+        $('.vv').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.w').click(function() {
-        $('.ww').addClass('appear');
+        $('.ww').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.x').click(function() {
-        $('.xx').addClass('appear');
+        $('.xx').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.y').click(function() {
-        $('.yy').addClass('appear');
+        $('.yy').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.z').click(function() {
-        $('.zz').addClass('appear');
+        $('.zz').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.one').click(function() {
-        $('.onee').addClass('appear');
+        $('.onee').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.two').click(function() {
-        $('.twoo').addClass('appear');
+        $('.twoo').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.three').click(function() {
-        $('.thre').addClass('appear');
+        $('.thre').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.four').click(function() {
-        $('.fourr').addClass('appear');
+        $('.fourr').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
@@ -646,51 +631,51 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.five').click(function() {
-        $('.fiveee').addClass('appear');
+        $('.fiveee').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.six').click(function() {
-        $('.sixxx').addClass('appear');
+        $('.sixxx').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.seven').click(function() {
-        $('.sevenn').addClass('appear');
+        $('.sevenn').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
@@ -698,51 +683,51 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.eight').click(function() {
-        $('.eightt').addClass('appear');
+        $('.eightt').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.nine').click(function() {
-        $('.nineee').addClass('appear');
+        $('.nineee').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
 
 $(document).ready(function() {
     $('.ten').click(function() {
-        $('.tenn').addClass('appear');
+        $('.tenn').toggleClass('appear');
     });
 
      $('.aa').click(function() {
-        $(this).addClass('disappear');
-        $('.squaregroup').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.squaregroup').toggleClass('appear');
     });
 
      $('.squaregroup').click(function() {
-        $(this).addClass('disappear');
-        $('.zzz').addClass('appear');
+        $(this).toggleClass('appear');
+        $('.zzz').toggleClass('appear');
     });
 
 });
