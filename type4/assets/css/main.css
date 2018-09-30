@@ -1763,6 +1763,76 @@ background-color: black;
   }
 
 
+
+
+
+
+
+
+
+.wlongvertical{display: none}
+
+.vwlong1{    position: relative;
+    top: -120px;
+    width: 124px;
+    left: -10px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+  .vwlong2{    position: relative;
+    top: -100px;px;
+    width: 124px;
+    left: -10px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+   .vwlong3{    position: relative;
+    top: -80px;
+    width: 124px;
+    left: -10px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+
+ .vwlong4{    position: relative;
+    top: -60px;
+    width: 124px;
+    left: -10px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+  .vwlong5{    position: relative;
+    top: -40px;
+    width: 124px;
+    left: -10px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+  .vwlong6{    position: relative;
+    top: -20px;
+    width: 124px;
+    left: -10px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+
+.vwlong7{    position: relative;
+    top: 0px;
+    width: 124px;
+    left: -10px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+
+
+
 .longc{display: none}
  .longq{display: none}
  .longeight{display: none}

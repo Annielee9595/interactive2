@@ -211,6 +211,10 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.g').click(function() {
         $('.gg').toggleClass('appear');
+        $('.wlongvertical').toggleClass('appear');
+        $('.mm').toggleClass('appear');
+        $('.thre').toggleClass('appear');
+        $('.jj').toggleClass('appear');
     });
 
      $('.aa').click(function() {
