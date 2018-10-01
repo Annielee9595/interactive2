@@ -1,4 +1,8 @@
 
+
+
+
+
 $(document).ready(function() {
 
   $(document).mousemove(function(e){
@@ -237,6 +241,13 @@ $(document).ready(function() {
         $('.hh').toggleClass('appear');
         $('.onee').toggleClass('appear');
         $('.osquaregroup').toggleClass('appear');
+        $('.ss').toggleClass('appear');
+        $('.csquaregroup').toggleClass('appear');
+        $('.thre').toggleClass('appear');
+        $('.ee').toggleClass('appear');
+
+
+
     });
 
      $('.aa').click(function() {
@@ -255,6 +266,7 @@ $(document).ready(function() {
     $('.i').click(function() {
         $('.ii').toggleClass('appear');
         $('.osquaregroup').toggleClass('appear');
+        $('.vsquaregg').toggleClass('appear');
     });
 
      $('.aa').click(function() {
@@ -739,4 +751,11 @@ $(document).ready(function() {
         $('.zzz').toggleClass('appear');
     });
 
+
+
+
 });
+
+
+
+

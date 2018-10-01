@@ -8,11 +8,30 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/css/sub.css" type="text/css" />
 
-</head>
+    <script>
 
-<script>
+        $(document).ready(function() {
+
+          $(document).mousemove(function(e){
+            
+            // update mouse x and y position
+            xPos = e.pageX;
+            yPos = e.pageY;
+            // change div with the id "element"s CSS when you move your mouse 
+            $('body').css({
+              'background-color' : 'rgb('+ yPos/2 + ', ' + xPos/10 + ', ' + (xPos*yPos)  /8 + ')',
+            });
+            $('.eightt, .nineee, .aa, .bb, .cc, .dd, .ee, .ff, .gg, .hh, .ii, .jj, .kk, .ll, .mm, .nn, .oo, .pp, .qq, .rr, .ss, .tt, .uu, .vv, .ww, .xx, .yy, .zz, .onee, .twoo, .thre, .fourr, .fiveee, .sixxx, .sevenn, .tenn, a ').css({
+              'color' : 'rgb('+ yPos/2 + ', ' + xPos/10 + ', ' + (xPos*yPos)  /8 + ')',
+            });
+          });
+      })   
 
 </script>
+
+</head>
+
+
 
 <body>
     <div class="windowBox">
@@ -30,9 +49,16 @@
 
          <div class="frame">
             <div class="i">
-                <div class="ii">i</div>
+                <div class="ii"><a href="https://annielee9595.github.io/interactive2/type4/index.html">i</a></div>
             </div>
         </div>
+
+          <div class="frame">
+            <div class="l">
+                <div class="ll"><a href="https://annielee9595.github.io/interactive2/type4/index.html">l</a></div>
+            </div>
+        </div>
+
 
 
         <div class="frame">
@@ -66,44 +92,18 @@
            <div class="frame">
             
           <div class="t"><div class="tt">t</div></div>
-          <div class="tsquaregroup">
-              <div class="squares t1"></div>
-              <div class="squares t2"></div>
-              <div class="squares t3"></div>
-              <div class="squares t4"></div>
-              <div class="squares t5"></div>
-              <div class="squares t6"></div>
-              <div class="squares t7"></div>
-              <div class="squares t8"></div>
-              <div class="squares t9"></div>
-              <div class="squares t10"></div>
-              <div class="squares t11"></div>
-
-            </div>
+         
           </div>
 
            <div class="frame">
             
           <div class="t"><div class="tt">t</div></div>
-          <div class="tsquaregroup">
-              <div class="squares t1"></div>
-              <div class="squares t2"></div>
-              <div class="squares t3"></div>
-              <div class="squares t4"></div>
-              <div class="squares t5"></div>
-              <div class="squares t6"></div>
-              <div class="squares t7"></div>
-              <div class="squares t8"></div>
-              <div class="squares t9"></div>
-              <div class="squares t10"></div>
-              <div class="squares t11"></div>
-              
-            </div>
+       
           </div>
 
           <div class="frame">
 
-          <div class="e"> <div class="etop"></div><div class="ebottom"></div><div class="ee">e</div></div>
+          <div class="e"> <div class="etop"></div><div class="ebottom"></div><div class="ee"><a href="https://annielee9595.github.io/interactive2/type4/index.html">e</a></div></div>
           
           </div>
         <!--  <div class="frame">

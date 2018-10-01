@@ -1,6 +1,6 @@
 body{
   background: white;
-  padding: 0;
+  ptoggleing: 0;
   margin: 0;
 }
 
@@ -10,11 +10,11 @@ body{
   /*background: #fff;*/
   width: 90px;
   height: 90px;
-  padding: 90px; 
+  ptoggleing: 90px; 
   float: left;
   display: inline;
   margin: 5px;
-  
+
   /*border-style: solid;*/
   /*border-color: coral;*/
    /*transform: scale(1);*/
@@ -114,7 +114,7 @@ body{
 }
 
 .jj {
-  color: white;
+  color: red;
   position: relative;
   font-size: 100px;
   top:0px;
@@ -144,7 +144,7 @@ body{
   left: 0px;
   font-family: 'Quicksand', sans-serif;
   z-index: 1;
-  display: none;
+  /*display: none;*/
 }
 
 
@@ -905,7 +905,7 @@ left:350px;
     z-index: 1px;
     transform: rotate(90deg);
     top: -70px;
-    left: 30px;
+    left: 29px;
 }
 .etop{
       position: relative;
@@ -915,9 +915,9 @@ left:350px;
     z-index: 1px;
     transform: rotate(90deg);
     top: -30px;
-    left: 30px;
+    left: 29px;
 }
-}
+
 
 
 
@@ -1673,7 +1673,7 @@ left:350px;
   /*background: #fff;*/
   width: 90px;
   height: 90px;
-  padding: 60px;
+  ptoggleing: 60px;
   float: left;
  /* display: inline;*/
   margin: 5px;
@@ -2014,6 +2014,6 @@ pre {
 
 }
 
-.disappear{
+.appear{
   display: none;
 }

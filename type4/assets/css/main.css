@@ -75,7 +75,7 @@ body{
   color: white;
   position: relative;
   font-size: 100px;
-  top:-20px;
+  top:-222px;
   left: 0px;
   font-family: 'Quicksand', sans-serif;
   z-index: 1;
@@ -174,11 +174,12 @@ body{
     display: none;
 }
 
+
 .nn {
   color: white;
   position: relative;
   font-size: 100px;
-  top:-40px;
+  top:-122px;
   left: 0px;
   font-family: 'Quicksand', sans-serif;
   z-index: 1;
@@ -647,15 +648,40 @@ left:350px;
 }
 
 
-
-
-
-
-
-
-
-
 .e{
+  background: black;
+  width: 70px;
+  height: 100px;
+  z-index: 1px;
+}
+.ebottom{
+  position: relative;
+    background: black;
+    width: 43px;
+    height: 100px;
+    z-index: 1px;
+    transform: rotate(90deg);
+    top: -70px;
+    left: 29px;
+}
+.etop{
+      position: relative;
+    background: black;
+    width: 43px;
+    height: 100px;
+    z-index: 1px;
+    transform: rotate(90deg);
+    top: -30px;
+    left: 29px;
+}
+
+
+
+
+
+
+
+/*.e{
   background: white;
   width: 50px;
   height: 50px;
@@ -694,7 +720,7 @@ left:350px;
   height: 35px;
   width: 100px;
 }
-
+*/
 
 .f,.f-half{
  /* display: block;*/
@@ -1526,6 +1552,67 @@ left:80px;
 
 
 
+.csquaregroup{
+ display: none;
+}
+
+.c1{
+  background-color: white;
+   left: 560px;
+   top: -10px;
+
+    
+}
+
+.c2{
+  left: 580px;
+  
+}
+
+.c3{
+background-color: white;
+top: -30px;
+
+    
+}
+.c4{
+background-color: black
+
+}
+.c5{
+  background-color: black;
+  top:0px;
+  
+}
+.c6{
+background-color: black;
+top: 0px;
+
+}
+
+.c7{
+background-color: black;
+top: 0px;
+
+}
+
+.c8{
+background-color: black;
+    top: 0px;
+    
+}
+.c9{
+background-color: white;
+top: -10px;
+    
+}
+.c10{
+background-color: black;
+    top: 0px;
+    left: 5px;
+}
+
+
 .tsquaregroup{
  display: none;
 }
@@ -2167,6 +2254,39 @@ background-color: black;
   transform: rotate(-45deg);
 
 }
+
+
+.vsquaregg{
+  display: none}
+
+.vsquare{
+  position:relative;
+  top: -67px;
+  width: 160px;
+  left:-20px;
+  height: 15px;
+  background-color: black;
+  /*display: none;*/
+ 
+
+}
+
+.vsquare2{
+  position:relative;
+  top: -80px;
+  width: 160px;
+  left:-20px;
+  height: 15px;
+  background-color: black;
+  /*display: none;*/
+  transform: rotate(90deg);
+
+}
+
+
+
+
+
 
 .bsquaregg{
   display: none}
