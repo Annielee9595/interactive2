@@ -12,6 +12,52 @@
 
         $(document).ready(function() {
 
+            const mouseCursor = document.querySelector(".mouse-cursor");
+
+// listen to a mousemove event on the entire window, at which point update the position of the faux mouse pointer
+window.addEventListener("mousemove", trackMovement);
+// listen to a click event on the same window, at which point add a simple animation to visualize the click
+window.addEventListener("click", showClick);
+
+/*
+the pertinent values are retrieved from the coordinates of the mousemove event
+e.clientX
+e.clientY
+
+these can be directly included as the values for the left and top properties respectively
+*/
+
+// create a function which updates the left and top property depending on the coordinates of the mousemove event
+function trackMovement(e) {
+    mouseCursor.style.left = `${e.clientX}px`;
+    mouseCursor.style.top = `${e.clientY}px`;
+}
+
+// create a function which adds a class to the mouse pointer, to "animate" the click 
+function showClick() {
+    // add the class 
+    mouseCursor.classList.add("animation");
+    // remove it after half a second (which is coincidentally the duration of the animation)
+    let timeoutID = setTimeout(() => {
+        mouseCursor.classList.remove("animation");
+        clearTimeout(timeoutID);
+    }, 500);
+}
+
+  $(document).mousemove(function(e){
+    
+    // update mouse x and y position
+    xPos = e.pageX;
+    yPos = e.pageY;
+    // change div with the id "element"s CSS when you move your mouse 
+    $('body').css({
+      'background-color' : 'rgb('+ yPos/2 + ', ' + xPos/10 + ', ' + (xPos*yPos)  /8 + ')',
+    });
+    $('.eightt, .nineee, .zzz, .aa, .bb, .cc, .dd, .ee, .ff, .gg, .hh, .ii, .jj, .kk, .ll, .mm, .nn, .oo, .pp, .qq, .rr, .ss, .tt, .uu, .vv, .ww, .xx, .yy, .zz, .onee, .twoo, .thre, .fourr, .fiveee, .sixxx, .sevenn, .tenn ').css({
+      'color' : 'rgb('+ yPos/2 + ', ' + xPos/10 + ', ' + (xPos*yPos)  /8 + ')',
+    });
+  });
+
           $(document).mousemove(function(e){
             
             // update mouse x and y position
@@ -34,6 +80,9 @@
 
 
 <body>
+
+    <div class="mouse-cursor"></div>
+
     <div class="windowBox">
 
         <div class="frame">

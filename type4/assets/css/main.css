@@ -440,14 +440,14 @@ body{
 }
 
 .squaregroup{
- /*display: none;*/
- opacity: 0;
- transition: 400ms all;
+ display: none;
+ /*opacity: 0;
+ transition: 400ms all;*/
 }
 
-.a:hover .squaregroup{
+/*.a:hover .squaregroup{
   opacity: 1;
-}
+}*/
 
 
 .squaregroup2{
@@ -2095,6 +2095,7 @@ div.animation:after {
 .longc{display: none}
  .longq{display: none}
  .longeight{display: none}
+  .longe{display: none}
 
 
 .clong{    position: relative;
@@ -2272,8 +2273,73 @@ div.animation:after {
     background-color: black;
     transform: rotate(90deg);
   }
+.elongg{    position: relative;
+   top: -55px;
+    width: 124px;
+    left: 56px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
 
+.elong{    position: relative;
+   top: -55px;
+    width: 124px;
+    left: 38px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+  .elong1{    position: relative;
+    top: -55px;
+    width: 124px;
+    left: 20px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+   .elong2{    position: relative;
+    top: -55px;
+    width: 124px;
+    left: 2px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
 
+ .elong3{    position: relative;
+    top: -55px;
+    width: 124px;
+    left: -16px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+  .elong4{    position: relative;
+    top: -55px;
+    width: 124px;
+    left: -34px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+  .elong5{    position: relative;
+    top: -55px;
+    width: 124px;
+    left: -52px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
+
+.elong6{    position: relative;
+    top: -55px;
+    width: 124px;
+    left: -70px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(90deg);
+  }
 
 
 

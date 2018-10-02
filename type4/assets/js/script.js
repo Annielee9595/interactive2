@@ -210,6 +210,7 @@ $(document).ready(function() {
         $('.jsquaregroup').toggleClass('appear');
         $('.aa').toggleClass('appear');
         $('.bsquaregg').toggleClass('appear');
+        $('.squaregroup2').toggleClass('appear');
     });
 
      $('.e').click(function() {
@@ -376,7 +377,16 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $('.l').click(function() {
+        $('.ff').toggleClass('appear');
+        $('.ee').toggleClass('appear');
         $('.ll').toggleClass('appear');
+        $('.jsquaregroup').toggleClass('appear');
+        $('.aa').toggleClass('appear');
+        $('.bsquaregg').toggleClass('appear');
+        $('.onee').toggleClass('appear');
+        $('.ssquaregg').toggleClass('appear');
+        $('.nn').toggleClass('appear');
+         $('.jj').toggleClass('appear');
     });
 
      $('.aa').click(function() {
@@ -395,6 +405,13 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.m').click(function() {
         $('.mm').toggleClass('appear');
+        $('.thre').toggleClass('appear');
+        $('.jj').toggleClass('appear');
+        $('.tenn').toggleClass('appear');
+        $('.asquaregg').toggleClass('appear');
+        $('.ff').toggleClass('appear');
+        $('.ee').toggleClass('appear');
+        $('.ll').toggleClass('appear');
     });
 
      $('.aa').click(function() {
@@ -413,6 +430,15 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.n').click(function() {
         $('.nn').toggleClass('appear');
+        $('.wlongvertical').toggleClass('appear');
+        $('.mm').toggleClass('appear');
+        $('.thre').toggleClass('appear');
+        $('.jj').toggleClass('appear');
+        $('.tenn').toggleClass('appear');
+        $('.asquaregg').toggleClass('appear');
+        $('.bb').toggleClass('appear');
+        $('.ww').toggleClass('appear');
+
     });
 
      $('.aa').click(function() {
@@ -431,6 +457,14 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.o').click(function() {
         $('.oo').toggleClass('appear');
+        $('.sevenn').toggleClass('appear');
+        $('.osix').toggleClass('appear');
+        $('.nn').toggleClass('appear');
+        $('.hh').toggleClass('appear');
+        $('.nineee').toggleClass('appear');
+        $('.bsquaregg').toggleClass('appear');
+        $('.longe').toggleClass('appear');
+        $('.thre').toggleClass('appear');
     });
 
      $('.aa').click(function() {
@@ -449,6 +483,16 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.p').click(function() {
         $('.pp').toggleClass('appear');
+        $('.kk').toggleClass('appear');
+        $('.cc').toggleClass('appear');
+        $('.onee').toggleClass('appear');
+        $('.ssquaregg').toggleClass('appear');
+        $('.nn').toggleClass('appear');
+        $('.hh').toggleClass('appear');
+        $('.nineee').toggleClass('appear');
+        $('.bsquaregg').toggleClass('appear');
+        $('.xx').toggleClass('appear');
+
     });
 
      $('.aa').click(function() {
@@ -466,6 +510,13 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.q').click(function() {
         $('.qq').toggleClass('appear');
+         $('.osix').toggleClass('appear');
+        $('.nn').toggleClass('appear');
+        $('.hh').toggleClass('appear');
+        $('.nineee').toggleClass('appear');
+        $('.bsquaregg').toggleClass('appear');
+        $('.aa').toggleClass('appear');
+
     });
 
      $('.aa').click(function() {
