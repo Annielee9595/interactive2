@@ -1977,6 +1977,56 @@ background-color: black;
     transform: rotate(180deg);
   }
 
+
+
+div.mouse-cursor {
+  /* create an arrow facing north-west, with border properties */
+  width: 0;
+  height: 0;
+
+  /* with transparent border right and bottom, the arrow faces north-west
+  the border top property describes the second half of the arrow
+  the border bottom the former, so it's possible to style the arrow with two tones */
+  border-top: 2rem solid black;
+  border-right: 2rem solid black;
+  border-bottom: 2rem solid black
+  border-left: 2rem solid black;
+  border-radius: 50px;
+  /* absolute position the arrow somewhere in the screen (position updated with JS) */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  filter: drop-shadow(0 2px 0 #252525);
+  z-index: -3;
+}
+
+/* add an animation to the after pseudo-element, through a class given to the connected element */
+div.animation:after {
+  animation: 0.5s showClick ease-out;
+}
+
+@keyframes showClick {
+  /* expand the circle in size and dissipate in color */
+  to {
+    /* changing the size without changing the top and left properties expands the circle from the top left corner */
+    width: 4rem;
+    height: 4rem;
+    /* changing the top and left properties allows to expand the circle in place (it'd be -4rem, but it is offset by the border-width property) */
+    top: -3.25rem;
+    left: -3.25rem;
+    background: rgba(255,255,255,0);
+
+  }
+}
+
+
+
+
+
+
+
+
+
 .ulongvertical{display: none}
 
 .vulong1{    position: relative;
