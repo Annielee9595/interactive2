@@ -14,7 +14,7 @@ $(document).ready(function() {
     $('body').css({
       'background-color' : 'rgb('+ yPos/2 + ', ' + xPos/10 + ', ' + (xPos*yPos)  /8 + ')',
     });
-    $('.eightt, .nineee, .aa, .bb, .cc, .dd, .ee, .ff, .gg, .hh, .ii, .jj, .kk, .ll, .mm, .nn, .oo, .pp, .qq, .rr, .ss, .tt, .uu, .vv, .ww, .xx, .yy, .zz, .onee, .twoo, .thre, .fourr, .fiveee, .sixxx, .sevenn, .tenn ').css({
+    $('.eightt, .nineee, .zzz, .aa, .bb, .cc, .dd, .ee, .ff, .gg, .hh, .ii, .jj, .kk, .ll, .mm, .nn, .oo, .pp, .qq, .rr, .ss, .tt, .uu, .vv, .ww, .xx, .yy, .zz, .onee, .twoo, .thre, .fourr, .fiveee, .sixxx, .sevenn, .tenn ').css({
       'color' : 'rgb('+ yPos/2 + ', ' + xPos/10 + ', ' + (xPos*yPos)  /8 + ')',
     });
   });
@@ -245,6 +245,8 @@ $(document).ready(function() {
         $('.csquaregroup').toggleClass('appear');
         $('.thre').toggleClass('appear');
         $('.ee').toggleClass('appear');
+        $('.asquaregg').toggleClass('appear');
+        $('.uu').toggleClass('appear');
 
 
 
@@ -267,6 +269,12 @@ $(document).ready(function() {
         $('.ii').toggleClass('appear');
         $('.osquaregroup').toggleClass('appear');
         $('.vsquaregg').toggleClass('appear');
+        $('.jsquaregroup').toggleClass('appear');
+        $('.aa').toggleClass('appear');
+        $('.bsquaregg').toggleClass('appear');
+        $('.tt').toggleClass('appear');
+        $('.ss').toggleClass('appear');
+
     });
 
      $('.aa').click(function() {
@@ -285,6 +293,14 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.j').click(function() {
         $('.jj').toggleClass('appear');
+        $('.fiveee').toggleClass('appear');
+        $('.ulongvertical').toggleClass('appear');
+        $('.nn').toggleClass('appear');
+        $('.mm').toggleClass('appear');
+        $('.thre').toggleClass('appear');
+        $('.jj').toggleClass('appear');
+        $('.tenn').toggleClass('appear');
+        $('.asquaregg').toggleClass('appear');
     });
 
      $('.aa').click(function() {
@@ -302,6 +318,14 @@ $(document).ready(function() {
 $(document).ready(function() {
     $('.k').click(function() {
         $('.kk').toggleClass('appear');
+        $('.cc').toggleClass('appear');
+        $('.onee').toggleClass('appear');
+        $('.ssquaregg').toggleClass('appear');
+        $('.nn').toggleClass('appear');
+        $('.hh').toggleClass('appear');
+        $('.nineee').toggleClass('appear');
+        $('.bsquaregg').toggleClass('appear');
+        $('.xx').toggleClass('appear');
     });
 
      $('.aa').click(function() {

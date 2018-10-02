@@ -1977,6 +1977,69 @@ background-color: black;
     transform: rotate(180deg);
   }
 
+.ulongvertical{display: none}
+
+.vulong1{    position: relative;
+    top: 500px;
+    width: 124px;
+    left: 500px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+  .vulong2{    position: relative;
+    top: 520px;px;
+    width: 124px;
+    left: 500px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+   .vulong3{    position: relative;
+    top: 540px;
+    width: 124px;
+    left: 500px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+
+ .vulong4{    position: relative;
+    top: 560px;
+    width: 124px;
+    left: 500px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+  .vulong5{    position: relative;
+    top: 580px;
+    width: 124px;
+    left: 500px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+  .vulong6{    position: relative;
+    top: 600px;
+    width: 124px;
+    left: 500px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+
+.vulong7{    position: relative;
+    top: 620px;
+    width: 124px;
+    left: 500px;
+    height: 3px;
+    background-color: black;
+    transform: rotate(180deg);
+  }
+
+
+
 
 
 .longc{display: none}
