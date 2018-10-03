@@ -2,8 +2,13 @@ body{
   /*background: red;*/
   font-family: 'Roboto Mono', monospace;
   cursor: none;
+  /*cursor: url('img/dot.png'), auto; */
+
+  
 
 }
+
+
 
 @media print {
   
@@ -36,11 +41,14 @@ body{
   /*width: 100vw;
   height: 200vw;*/
   /*display: block;*/
+  position: relative;
+  left: 50%;
+
   width: 1600px;
   height: 1600px;
-  margin-left: 40px;
-  margin-top: 20px;
-  /*transform: scale(0.5);*/
+  margin-left: -800px;
+  margin-top: -200px;
+  transform: scale(0.7);
 
 }
 .container2{
@@ -53,7 +61,9 @@ body{
 
 }
 h1{margin-left: 40px;
-margin-right: 100px;}
+margin-right: 100px;
+line-height: 1.6;
+}
 
 
 
@@ -673,7 +683,7 @@ left:350px;
   content: ""; 
   height: 50px; 
   width: 100px;
-  top:120px;
+  top:114px;
   border-radius: 0 30px 30px 0px;
   background-color: black;
 }
@@ -2034,21 +2044,18 @@ body {
   
 }
 
-div.mouse-cursor {
+.mouse-cursor {
   
-  width: 0;
-  height: 0;
 
- 
   border-top: 2rem solid black;
   border-right: 2rem solid black;
   border-bottom: 2rem solid black
   border-left: 2rem solid black;
   border-radius: 50px;
 
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
   
   z-index: -3;
 }
@@ -2407,11 +2414,20 @@ div.mouse-cursor {
 
 
 
+
+.asquaregg{
+  display: none}
+
+.wsquaregg{
+  display: none}
+  .csquaregg{
+  display: none}
+
 .asquare{
   position:relative;
-  top: -80px;
+  top: -70px;
   width: 160px;
-  left:-70px;
+  left:-90px;
   height: 10px;
   background-color: black;
   /*display: none;*/
@@ -2419,22 +2435,17 @@ div.mouse-cursor {
 
 }
 
-.asquare2{
+.asquare2{ 
   position:relative;
   top: -80px;
   width: 160px;
-  left:-70px;
+  left:-90px;
   height: 10px;
   background-color: black;
   /*display: none;*/
   transform: rotate(-45deg);
 
 }
-.asquaregg{
-  display: none}
-
-.wsquaregg{
-  display: none}
 
 .wsquare{
   position:relative;
@@ -2459,6 +2470,31 @@ div.mouse-cursor {
   transform: rotate(-45deg);
 
 }
+
+.csquare{
+  position:relative;
+  top: -80px;
+  width: 160px;
+  left:-40px;
+  height: 10px;
+  background-color: black;
+  /*display: none;*/
+  transform: rotate(45deg);
+
+}
+
+.csquare2{
+  position:relative;
+  top: -80px;
+  width: 160px;
+  left:-40px;
+  height: 10px;
+  background-color: black;
+  /*display: none;*/
+  transform: rotate(-45deg);
+
+}
+
 .ssquaregg{
   display: none}
 

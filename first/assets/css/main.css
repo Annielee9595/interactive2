@@ -773,7 +773,7 @@ left:350px;
   }
   .eightlong1{    position: relative;
     top: -10px;
-    width: 124px;
+    width: 124px;.
     left: 20px;
     height: 3px;
     background-color: black;
@@ -1640,7 +1640,7 @@ left:350px;
   width: 100px;
   height: 45px;
   position: absolute;
-  top: 60px;
+  top: 56px;
   left: 0px;
   /*transform: rotate(180deg);*/
 }

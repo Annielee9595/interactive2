@@ -12,6 +12,7 @@ window.addEventListener("click", showClick);
 
 
 function trackMovement(e) {
+
     mouseCursor.style.left = `${e.clientX}px`;
     mouseCursor.style.top = `${e.clientY}px`;
 }
@@ -31,9 +32,21 @@ function showClick() {
     xPos = e.pageX;
     yPos = e.pageY;
     // change div with the id "element"s CSS when you move your mouse 
+
+    // $('body').css({
+    //   'background-color' : 'rgb('+ yPos/2 + ', ' + xPos/10 + ', ' + (xPos*yPos)  /8 + ')',
+    // });
+
+
     $('body').css({
-      'background-color' : 'rgb('+ yPos/2 + ', ' + xPos/10 + ', ' + (xPos*yPos)  /8 + ')',
+      'background-image' : 'linear-gradient('+ (yPos-xPos) +'deg, rgb('+ yPos/2 + ', ' + xPos/10 + ', ' + (xPos*yPos)  /8 + '), rgb('+ xPos/2 + ', ' + yPos/10 + ', ' + (yPos)  /8 + '))',
     });
+
+    
+
+
+
+
     $('.eightt, .nineee, .zzz, .aa, .bb, .cc, .dd, .ee, .ff, .gg, .hh, .ii, .jj, .kk, .ll, .mm, .nn, .oo, .pp, .qq, .rr, .ss, .tt, .uu, .vv, .ww, .xx, .yy, .zz, .onee, .twoo, .thre, .fourr, .fiveee, .sixxx, .sevenn, .tenn ').css({
       'color' : 'rgb('+ yPos/2 + ', ' + xPos/10 + ', ' + (xPos*yPos)  /8 + ')',
     });
@@ -179,9 +192,10 @@ $(document).ready(function() {
         $('.threesquaregroup').toggleClass('appear');
         $('.longeight').toggleClass('appear');
         $('.ss').toggleClass('appear');
-        $('.asquaregg').toggleClass('appear');
+       $('.csquaregg').toggleClass('appear');
         $('.sixlongvertical').toggleClass('appear');
         $('.zz').toggleClass('appear');
+
 
     });
 
@@ -224,6 +238,7 @@ $(document).ready(function() {
         $('.gg').toggleClass('appear');
         $('.zzz').toggleClass('appear');
         $('.longeight').toggleClass('appear');
+        $('.yy').toggleClass('appear');
     });
 
      $('.f').click(function() {
@@ -535,6 +550,8 @@ $(document).ready(function() {
         $('.bsquaregg').toggleClass('appear');
         $('.squaregroup2').toggleClass('appear');
         $('.wlongvertical').toggleClass('appear');
+        $('.tsquaregroup').toggleClass('appear');
+
     });
 
      $('.aa').click(function() {
