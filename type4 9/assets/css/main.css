@@ -10,20 +10,15 @@ body{
   body {
     background: white;
   }
-#print{
-    display: block;
-    margin-top: 0px;
-  }
-  .container, .container2, .mouse-cursor {
-    display: none;
+
+  .container, .container2 {
+    opacity: 0;
   }
 }
-  @media (min-width: 1000px) and (max-width: 30000px) { 
+  @media (min-width: 0px) and (max-width: 30000px) { 
   body {
     
   }
-
-
 #print {
     display: none;
   }
