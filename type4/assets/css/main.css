@@ -35,6 +35,154 @@ body{
 
 }
 
+.a:hover {
+    opacity: 0;
+
+}
+
+.b:hover {
+    opacity: 0;
+
+}
+
+.c:hover {
+    opacity: 0;
+
+}
+
+.d:hover {
+    opacity: 0;
+
+}
+.e:hover {
+    opacity: 0;
+
+}
+.f:hover {
+    opacity: 0;
+
+}
+.g:hover {
+    opacity: 0;
+
+}
+.h:hover {
+    opacity: 0;
+
+}
+.i:hover {
+    opacity: 0;
+
+}
+.j:hover {
+    opacity: 0;
+
+}
+.k:hover {
+    opacity: 0;
+
+}
+.l:hover {
+    opacity: 0;
+
+}
+.n:hover {
+    opacity: 0;
+
+}
+.m:hover {
+    opacity: 0;
+
+}
+.o:hover {
+    opacity: 0;
+
+}
+.p:hover {
+    opacity: 0;
+
+}
+.q:hover {
+    opacity: 0;
+
+}
+.r:hover {
+    opacity: 0;
+
+}
+.s:hover {
+    opacity: 0;
+
+}
+.t:hover {
+    opacity: 0;
+
+}
+.u:hover {
+    opacity: 0;
+
+}
+.v:hover {
+    opacity: 0;
+
+}
+.w:hover {
+    opacity: 0;
+
+}
+.x:hover {
+    opacity: 0;
+
+}
+.y:hover {
+    opacity: 0;
+
+}
+.z:hover {
+    opacity: 0;
+
+}
+.one:hover {
+    opacity: 0;
+
+}
+.two:hover {
+    opacity: 0;
+
+}
+.three:hover {
+    opacity: 0;
+
+}
+.four:hover {
+    opacity: 0;
+
+}
+.five:hover {
+    opacity: 0;
+
+}
+.six:hover {
+    opacity: 0;
+
+}
+.seven:hover {
+    opacity: 0;
+
+}
+.eight:hover {
+    opacity: 0;
+
+}
+.nine:hover {
+    opacity: 0;
+
+}
+.ten:hover {
+    opacity: 0;
+
+}
+
 
 
 .container{
@@ -65,6 +213,11 @@ margin-right: 100px;
 line-height: 1.6;
 }
 
+h3{margin-left: 40px;
+margin-right: 100px;
+line-height: 1.6;
+font-size: 40px;
+}
 
 
 .frame{
@@ -2089,59 +2242,59 @@ body {
 .ulongvertical{display: none}
 
 .vulong1{    position: relative;
-    top: 500px;
+    top: 0px;
     width: 124px;
-    left: 500px;
+    left: -10px;
     height: 3px;
     background-color: black;
     transform: rotate(180deg);
   }
   .vulong2{    position: relative;
-    top: 520px;px;
+    top: -20px;px;
     width: 124px;
-    left: 500px;
+    left: -10px;
     height: 3px;
     background-color: black;
     transform: rotate(180deg);
   }
    .vulong3{    position: relative;
-    top: 540px;
+    top: -40px;
     width: 124px;
-    left: 500px;
+    left: -10px;
     height: 3px;
     background-color: black;
     transform: rotate(180deg);
   }
 
  .vulong4{    position: relative;
-    top: 560px;
+    top: -60px;
     width: 124px;
-    left: 500px;
+    left: -10px;
     height: 3px;
     background-color: black;
     transform: rotate(180deg);
   }
   .vulong5{    position: relative;
-    top: 580px;
+    top: -80px;
     width: 124px;
-    left: 500px;
+    left: -10px;
     height: 3px;
     background-color: black;
     transform: rotate(180deg);
   }
   .vulong6{    position: relative;
-    top: 600px;
+    top: -100px;
     width: 124px;
-    left: 500px;
+    left: -10px;
     height: 3px;
     background-color: black;
     transform: rotate(180deg);
   }
 
 .vulong7{    position: relative;
-    top: 620px;
+    top: -120px;
     width: 124px;
-    left: 500px;
+    left: -10px;
     height: 3px;
     background-color: black;
     transform: rotate(180deg);
