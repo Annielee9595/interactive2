@@ -34,8 +34,9 @@ body{
   }
 
 }
+/*.frame:hover{opacity: 0;}*/
 
-.a:hover {
+/*.a:hover {
     opacity: 0;
 
 }
@@ -181,9 +182,26 @@ body{
 .ten:hover {
     opacity: 0;
 
+}*/
+
+.button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    /*text-align: center;*/
+    text-decoration: none;
+    display: inline-block;
+    font-size: 40px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left: 35%;
+    top: -30%;
+
+    font-family: 'Roboto Mono', monospace;
+
 }
-
-
 
 .container{
   /*width: 100vw;
@@ -211,12 +229,14 @@ body{
 h1{margin-left: 40px;
 margin-right: 100px;
 line-height: 1.6;
+color: white;
 }
 
 h3{margin-left: 40px;
 margin-right: 100px;
 line-height: 1.6;
 font-size: 40px;
+color: white;
 }
 
 
