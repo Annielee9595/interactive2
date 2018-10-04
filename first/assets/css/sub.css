@@ -32,3 +32,19 @@ a{
   text-decoration: none;
 }
 
+
+.mouse-cursor {
+  
+
+  border-top: 2rem solid black;
+  border-right: 2rem solid black;
+  border-bottom: 2rem solid black
+  border-left: 2rem solid black;
+  border-radius: 50px;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  
+  z-index: -3;
+}
