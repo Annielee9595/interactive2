@@ -189,14 +189,14 @@ body{
     border: none;
     color: white;
     padding: 15px 32px;
-    /*text-align: center;*/
+    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 50px;
     margin: 4px 2px;
     cursor: pointer;
     position: absolute;
-    left: 40%;
+    left: 42%;
     top: -30%;
 
     font-family: 'Roboto Mono', monospace;
