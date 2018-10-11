@@ -8,7 +8,7 @@ $(document).ready(function(){
 			borderWidth: '10px'
 		}, 200 );
 	});
-	
+
 
 	$('#button-4').click(function() {
 		$(this).toggleClass('gradient-background');
@@ -77,7 +77,7 @@ $(function() {
 
 $(document).ready(function() {
     $('#button-10').click(function() {
-        $('#button-2').toggleClass('disappear');
+        $('.item').toggleClass('disappear');
         // $('.squaregroup').addClass('appear');
     });
     });
