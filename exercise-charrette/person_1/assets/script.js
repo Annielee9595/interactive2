@@ -8,6 +8,7 @@ $(document).ready(function(){
 			borderWidth: '10px'
 		}, 200 );
 	});
+	
 
 	$('#button-4').click(function() {
 		$(this).toggleClass('gradient-background');
@@ -103,6 +104,74 @@ $('.door').on('click', function(){
   $(this).toggleClass('open');
 });
 });
+
+
+$(document).ready(function() {
+    $('#button-14').click(function() {
+        $('#button-2,#button-9,#button-20,#button-1,#button-5,#button-9,#button-10,#button-16').toggleClass('disappear');
+        // $('.squaregroup').addClass('appear');
+    });
+    });
+
+$(document).ready(function(){
+	
+	$('#button-15').click(function() {
+		$(this).animate({
+			opacity: 0.4,
+			marginLeft: '500px',
+			fontSize: '120px',
+			borderWidth: '50px'
+		}, 9 );
+	});
+	});
+
+
+$(document).ready(function(){
+	$('#button-16').click(function() {
+		$(this).animate({
+			opacity: 0.4,
+			margintop: '500px',
+			fontSize: '120px',
+			borderWidth: '50px'
+		}, 9 );
+	});
+	
+});
+$(document).ready(function(){
+
+$('.pop-up').hide(0);
+$('.pop-up-container').hide(0);
+
+$('.#button-16').click(function(){
+  $('.pop-up-container').show(0);
+  $('.pop-up').fadeIn(300);
+  $('.#button-16').hide(0);
+});
+$('.pop-up span').click(function() {
+  $('.pop-up-container').hide(0);
+  $('.pop-up').hide(0);
+  $('.#button-16').show(0);
+});
+});
+
+
+function myFunction() {
+    alert("Hello! Hello!");
+}
+
+
+
+
+$(document).ready(function() {
+    $('#button-23').click(function() {
+        $('#button-2').toggleClass('disappear');
+        // $('.squaregroup').addClass('appear');
+    });
+    });
+
+	
+
+
 
 
 
