@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>apa</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="assets/main.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- jquery -->
+    <script src="assets/script.js"></script>
+     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+
+<body>
+ <div class="tool-box" id="set_cSize">
+        <span>Canvas size</span>
+        <input type="number" id="set_cWidth">
+        <span>x</span>
+        <input type="number" id="set_cHeight">
+        <label>Grid <input type="checkbox" id="gridOn" checked></label>
+    </div>
+    <div id="workspace" role="main">
+        <div id="horizontalRuler" class="ruler"><b id="hMarker" class="marker"></b></div>
+        <div id="verticalRuler" class="ruler"><b id="vMarker" class="marker"></b></div>
+        <canvas id="canvas" class="grid" width="1000" height="700"></canvas>
+        <div class="tool-box" id="statusBar"></div>
+    </div><!-- #workspace -->
+    <div class="tool-box" id="toolBox">
+        <div class="tool-group clr" id="toolShapes">
+            <label>Uppercase</label>
+            <div class="tools">
+                <button type="button" class="shape-tool">A</button>
+                <button type="button" class="shape-tool" id="toolEllipse" title="Create Ellipse">Ellipse</button>
+                <button type="button" class="shape-tool" id="toolRect" title="Create Rectangle">Rectangle</button>
+                <button type="button" class="shape-tool" id="toolLine" title="Create Line">Line</button>
+                <button type="button" class="shape-tool" id="toolFreeform" title="Create Freeform Line">Freeform</button>
+            </div>
+        </div>
+        <div class="tool-group clr" id="toolColors">
+            <label>lowercase</label>
+            <div class="tools">
+            </div>
+        </div>
+    </div>
+  
+  
+</body>
+</html>

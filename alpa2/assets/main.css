@@ -1,0 +1,119 @@
+:root{
+  --color-text: #399070;
+  --color-card-front: #FF8B94;
+  --color-card-front-accent: #FFAAA5;
+  --color-card-back: #EDF0F4;
+  --color-card-back-accent: #FFF;
+  --color-app-background: #A8E6CF;
+  --color-success-primary: #A5FFB8;
+  --color-success-secondary: #D3FFA5;
+}
+
+.app{
+  background:var(--color-app-background);  
+  display:grid;
+  grid-template-rows: 1fr auto;
+  height:100vh;
+  overflow:hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.card-list{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:grid;
+  grid-template-columns: repeat(24,1fr);
+  grid-auto-flow: row dense;
+  grid-gap:.5rem;
+  padding:3rem 2rem 0;
+  box-sizing:border-box;
+}
+
+.card{
+  text-align:center;
+  box-sizing:border-box;
+  position:relative;
+  display:grid; 
+  cursor:pointer;
+  transition:all 200ms ease;
+}
+
+.card:focus, .card:hover{
+  transform: scale(1.1);
+}
+
+.card-content{
+  transition:all 1000ms ease;
+  transform-style:preserve-3d;
+  position:relative;
+  display:flex;
+  align-items:center;
+  font-size:2vh;
+}
+
+.card-front, .card-back{
+  border-radius:.5rem;
+  backface-visibility: hidden;  
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  user-select:none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.card-front{
+  background:var(--color-card-front);
+  z-index:2;
+  transform:rotateY(0deg); 
+  box-shadow:
+    inset 0 0 0 4px var(--color-card-front),
+    inset 0 0 0 6px var(--color-card-front-accent);
+}
+
+.card-back{
+  background:var(--color-card-back);
+  z-index:1;
+  transform:rotateY(180deg);
+  box-shadow: inset 0 0 0 2px var(--color-card-back-accent);    
+
+}
+
+.card.active .card-content,
+.card.matched .card-content
+{
+  transform:rotateY(180deg);
+  z-index:1;
+  pointer-events:none;
+}
+
+.card.matched .card-back{
+  animation: success 1000ms ease;
+  animation-delay:1000ms;
+}
+
+.score-container{
+  text-align:center;
+  padding:1rem;
+  text-transform:uppercase;
+  color:var(--color-text);
+  font-weight:600;
+  letter-spacing:.1em;
+}
+
+@keyframes success{
+  0%, 40%, 80%{
+    background: var(--color-success-primary);
+    transform:rotate(2deg) rotateY(180deg);
+    box-shadow: inset 0 0 0 2px var(--color-success-primary);
+  }
+  20%, 60%, 100%{
+    background: var(--color-success-secondary);
+    transform:rotate(-2deg) rotateY(180deg);    
+    box-shadow: inset 0 0 0 2px var(--color-success-primary);    
+  }
+}
