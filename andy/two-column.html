@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Two Columns</title>
+  <meta charset="utf-8" />
+  <style>
+  
+  * {
+    margin: 1px;
+    padding: 0px;
+  }
+
+
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border-radius: 1px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+.menu {
+    height: 55px;
+    padding-top: 15px;
+    background-color: #fff;
+}
+h1{margin-top: 100px;
+  font-style: normal;
+  font-size: 23px;
+  width: 90%;
+    word-spacing: normal;
+    text-align: center;
+    font-family: "Helvetica", sans-serif;}
+
+  #content {
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  #left-col {
+    width: 50vw;
+    height: 100vh;
+    overflow: scroll;    
+    float: left;
+    background: #f3f3f3;
+  }
+
+  #right-col {
+    width: 50vw;
+    height: 100vh;
+    overflow: scroll;    
+    float: right;
+    background: #f3f3f3;
+  }
+  
+  .item {
+    border: 1px solid black;
+    padding: 50px;
+    margin: 50px;
+    min-height: 400px;
+    
+    color: black
+    /*background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(andy.jpg);;*/
+  }
+
+  #name {
+    width: 90%;
+    text-align: center;
+    font-size: 30px;
+}
+div{
+    margin: 0;
+    padding: 0;
+    
+    font-style: normal;
+    word-spacing: normal;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-family: "PP Terrazzo", Arial, Helvetica, sans-serif;
+}
+
+#about{
+    width: 12.5%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -30px;
+}
+
+a.black {
+    color: #000;
+    text-decoration: none;
+    transition: color 50ms linear 0s;
+}
+img{background-size: cover;
+  background-repeat: no-repeat;}
+
+
+  </style>
+</head>
+
+<body>
+  <!-- this is the containing grid-->
+  <div id="menu" class="menu"><div id="name">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  Andy Warhol</div>
+<div id="about"><a class="black" href="#">Info</a></div>
+
+
+
+
+</div>
+    
+  <div id="content">
+
+
+   
+    <div id="left-col">
+      <h1>Andy</h1>
+      <!-- items -->
+      <div class="item"><!-- <img src="andy.jpg" width="800" height="600"> --></div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+      <div class="item">10</div>
+      <div class="item">11</div>
+      <div class="item">12</div>
+      <div class="item">13</div>
+      <div class="item">14</div>
+      <div class="item">15</div>
+    </div>
+  
+    <div id="right-col">
+      <h1>World of Celebrity</h1>
+      <!-- items -->
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+      <div class="item">10</div>
+      <div class="item">11</div>
+      <div class="item">12</div>
+      <div class="item">13</div>
+      <div class="item">14</div>
+      <div class="item">15</div>
+    </div>
+
+  </div>
+</body>
+</html>
