@@ -3,6 +3,7 @@
     margin: 1px;
     padding: 0px;
   }
+  body{background-color: #f8f8f8;}
 
 
 #menu {
@@ -182,4 +183,83 @@ img{
     margin-top: -40px;
     grid-template-columns: auto auto auto auto auto auto auto;
   }
+    #section8{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -100px;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+  }
+    #section81{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -70px;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+  }
+
+   #section9{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -120px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  }
+
+  #section91{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -100px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto;
+  }
+
+    #section10{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -150px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  }
+
+   #section101{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -130px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+  }
+
+   #section11{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -160px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  }
+   #section111{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -140px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto;
+  }
+   #section12{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -160px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
+
+   #section121{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -160px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
+
+
+
 

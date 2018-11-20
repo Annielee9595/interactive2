@@ -1,0 +1,12 @@
+body, html {
+    font-family: 'SFMOMADisplayRegular';
+    font-weight: normal;
+    min-height: 100vh;
+    width: 100%;
+    font-size: 16px;
+    background: #f8f8f8;
+    text-rendering: optimizeLegibility!important;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased!important;
+}
+
