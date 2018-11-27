@@ -16,6 +16,9 @@ h1{
   text-align: center;
 }
 
-span{
-  display: inline-block;
+
+a.black {
+    color: #000;
+    text-decoration: none;
+    transition: color 50ms linear 0s;
 }
