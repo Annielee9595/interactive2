@@ -98,6 +98,13 @@ div{
     font-size: 30px;
     margin-top: -30px;
 }
+.mm{
+  margin-left: 1300px;
+
+}
+.ss{margin-left: 1200px;
+}
+.aa{margin-left: 1400px;}
 
 a.black {
     color: #000;
@@ -110,6 +117,19 @@ img{
   background-repeat: no-repeat;
   width:100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -126,8 +146,9 @@ img{
 
   #section1{
     grid-template-columns:300px;
-    justify-content: center;
+    /*justify-content: center;*/
     margin-top: 100px;
+    grid-template-columns: auto;
    
 
     min-height: 300px;
@@ -260,6 +281,36 @@ img{
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto;
   }
 
+   #section13{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -180px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
+     #section131{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -170px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
+
+   #section14{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -180px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
+
+ #section15{
+    grid-template-columns:300px;
+    min-height: 300px;
+    padding: 0px;
+    margin-top: -200px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
+  }
 
 
 
