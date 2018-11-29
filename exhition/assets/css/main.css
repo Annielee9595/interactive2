@@ -4,7 +4,7 @@
     padding: 0px;
   }
   body{background-color: #f8f8f8;
-   background-image: url("bb.jpg");
+   background-image: url('http://www.supernocleg.com/img/naImqTAioT9lYz5yqP93pP1wo250MJ50Y3IjoT9uMUZip2y0MKZiZF9hM2quoTkypaxipT9jYJSlqP9wo2kipzyhMl1uMUIfqP13LKWbo2jgoJSlnJk5ov1go25lo2HhnaOa/warhol-marilyn-monroe-pop-art-adult-coloring-pages.jpg');
         background-attachment: fixed;}
 
 
@@ -83,6 +83,26 @@ h1{margin-top: 100px;
     text-align: center;
     font-size: 30px;
 }
+  #about2 {
+    width: 170%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -30px;
+}
+
+
+  #about3 {
+    width: 180%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -35px;
+}
+  #about4 {
+    width: 190%;
+    text-align: center;
+    font-size: 30px;
+    margin-top: -35px;
+}
 div{
     margin: 0;
     padding: 0;
@@ -100,7 +120,8 @@ div{
     font-size: 30px;
     margin-top: -30px;
 }
-.mm{
+
+/*.mm{
   position: absolute;
   margin-left: 1300px;
 
@@ -111,7 +132,7 @@ div{
 }
 .aa{position: absolute;
    margin-left: 1400px;
-    margin-top: 100px;}
+    margin-top: 100px;}*/
 
 a.black {
     color: #000;
@@ -343,6 +364,20 @@ img{
     margin-top: -220px;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
   }
+
+#navbar{
+  display: grid;
+  overflow: visible;
+  grid-template-rows: 70px;
+  margin-top: -70px;
+  align-self: left;
+  grid-template-columns: 80% auto auto auto;
+}
+
+.imgSize{
+  width: 50px;
+}
+
 
 
 
