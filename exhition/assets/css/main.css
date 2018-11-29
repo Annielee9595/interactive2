@@ -4,8 +4,16 @@
     padding: 0px;
   }
   body{background-color: #f8f8f8;
-   background-image: url('https://s3images.coroflot.com/user_files/individual_files/large_661063_tkxq4mwlkddgrllggnznb5u5y.png');
-        background-attachment: fixed;}
+   /*background-image: url('https://s3images.coroflot.com/user_files/individual_files/large_661063_tkxq4mwlkddgrllggnznb5u5y.png');*/
+        background-attachment: fixed;
+       align-self: center;
+      /* background-repeat: no-repeat;*/
+
+        /*background-image: url('https://photos.vanityfair.com/2015/04/20/55357b0b21478db3485e47ff_culture-list-moma-andy-warhol-campbells-soup-01.jpg');*/
+        background-image: url('https://media.timeout.com/images/102240165/image.jpg');}
+.item:hover {
+    color: yellow;
+}
 
 
 #menu {
@@ -185,6 +193,7 @@ img{
     grid-template-columns:300px;
     min-height: 300px;
     margin-top: 100px;
+
     grid-template-columns: auto auto;
   }
   #section3{
