@@ -16,23 +16,6 @@
     color: yellow;
 }
 
-.picA{
-  opacity: 1;
-  transition: 100ms;
-}
-
-.picB{
-  opacity: 1; 
-  transition: 100ms;
-}
-
-.picC{
-  opacity: 1; 
-  transition: 100ms;
-}
-.opacity{
-  opacity: 0;
-}
 
 #menu {
     position: fixed;

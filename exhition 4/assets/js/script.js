@@ -63,16 +63,10 @@ if(IE) {
 } else {
   window.addEventListener('resize', setWindowHeight, false);
   window.addEventListener('load', initialize, false);
+
+
+
+
+
+
 }
-
-
-$( ".link1" ).hover(function() {
-  $( ".picA,.picC" ).toggleClass('opacity');
-});
-$( ".link2" ).hover(function() {
-  $( ".picA,.picB" ).toggleClass('opacity');
-});
-$( ".link3" ).hover(function() {
-  $( ".picB,.picC" ).toggleClass('opacity');
-});
-
