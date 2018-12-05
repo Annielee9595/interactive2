@@ -3,6 +3,7 @@
     margin: 1px;
     padding: 0px;
   }
+
   body{background-color: #f8f8f8;
    /*background-image: url('https://s3images.coroflot.com/user_files/individual_files/large_661063_tkxq4mwlkddgrllggnznb5u5y.png');*/
         background-attachment: fixed;
@@ -465,5 +466,7 @@ img{
 }
 
 
-
+a{
+  margin: 0;
+}
 
