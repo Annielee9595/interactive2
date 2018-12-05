@@ -66,13 +66,13 @@ if(IE) {
 }
 
 
-$( ".link1" ).click(function() {
+$( ".link1" ).hover(function() {
   $( ".picA,.picC" ).toggleClass('opacity');
 });
-$( ".link2" ).click(function() {
+$( ".link2" ).hover(function() {
   $( ".picA,.picB" ).toggleClass('opacity');
 });
-$( ".link3" ).click(function() {
+$( ".link3" ).hover(function() {
   $( ".picB,.picC" ).toggleClass('opacity');
 });
 

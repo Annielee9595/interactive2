@@ -22,12 +22,13 @@ header h1.logo {
   font-size: 3.5em;
   color: #222;
 
+
 }
 
 .container {
-  width: 50%;
+  width: 25%;
   margin: 0 auto;
-  line-height: 30px;
+  line-height: 25px;
 }
 
 footer {

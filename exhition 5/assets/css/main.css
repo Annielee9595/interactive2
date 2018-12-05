@@ -14,7 +14,6 @@
       /*background-image: url('https://d2mpxrrcad19ou.cloudfront.net/item_images/1052369/11147463_fullsize.jpg');*/}
 .item:hover {
     color: yellow;
-    /*line-height: */
 }
 
 .picA{
@@ -31,11 +30,6 @@
   opacity: 1; 
   transition: 100ms;
 }
-
-.item img{
-  cursor: pointer;
-}
-
 .opacity{
   opacity: 0;
 }
@@ -201,7 +195,7 @@ img{
     /*border: 1px solid black;*/
   
     margin: 10px;
-    min-height: 100px;
+    min-height: 1400px;
     
     color: black
 
@@ -455,7 +449,7 @@ img{
   display: grid;
   overflow: visible;
   grid-template-rows: 70px;
-  margin-top: -55px;
+  margin-top: -70px;
   align-self: left;
   grid-template-columns: 80% auto auto auto;
 }
