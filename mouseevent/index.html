@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Annie&Stephanie's Project 2</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">   
+    <link rel="stylesheet" href="/style.css">
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    
+   
+<!--     <div class="tool-box" id="set_cSize">
+        <span>Canvas size</span>
+        <input type="number" id="set_cWidth">
+        <span>x</span>
+        <input type="number" id="set_cHeight">
+        <label>Grid <input type="checkbox" id="gridOn" checked></label>
+      <label>Font Size
+      <button type="button" class="plus" >+</button>
+      <button type="button" class="plus" >-</button>
+      </label>
+      <label>Color
+        <button class="colorbutton"></button>
+        <button class="colorbutton colorbutton2"></button>
+        <button class="colorbutton colorbutton3"></button>
+        <button class="colorbutton colorbutton4"></button>
+        <button class="colorbutton colorbutton5"></button>
+      </label>
+    </div> -->
+    <div id="workspace" role="main">
+        <div id="horizontalRuler" class="ruler"><b id="hMarker" class="marker"></b></div>
+        <div id="verticalRuler" class="ruler"><b id="vMarker" class="marker"></b></div>
+      <button type="button" class="clean1" onclick="document.location.reload(true)">Clear Screen</button>  
+      <canvas id="canvas" class="grid" width="1600" height="850">
+      </canvas>
+      
+        <div class="tool-box" id="statusBar"></div>
+    </div><!-- #workspace -->
+    <div class="tool-box" id="toolBox">
+        <div class="tool-group clr" id="toolShapes">
+            <label>Uppercase</label>
+            <div class="tools">
+              <button type="button" class="capital" id="A" title="A" onclick="click()">A</button>
+              <button type="button" class="capital" id="B" title="B" onclick="click()">B</button>
+              <button type="button" class="capital" id="C" title="C" onclick="click()">C</button>
+              <button type="button" class="capital" id="D" title="D" onclick="click()">D</button>
+              <button type="button" class="capital" id="E" title="E" onclick="click()">E</button>
+              <button type="button" class="capital" id="F" title="F" onclick="click()">F</button>
+              <button type="button" class="capital" id="G" title="G" onclick="click()">G</button>
+              <button type="button" class="capital" id="H" title="H" onclick="click()">H</button>
+              <button type="button" class="capital" id="I" title="I" onclick="click()">I</button>
+              <button type="button" class="capital" id="J" title="J" onclick="click()">J</button>
+              <button type="button" class="capital" id="K" title="K" onclick="click()">K</button>
+              <button type="button" class="capital" id="L" title="L" onclick="click()">L</button>
+              <button type="button" class="capital" id="M" title="M" onclick="click()">M</button>
+              <button type="button" class="capital" id="N" title="N" onclick="click()">N</button>
+              <button type="button" class="capital" id="O" title="O" onclick="click()">O</button>
+              <button type="button" class="capital" id="P" title="P" onclick="click()">P</button>
+              <button type="button" class="capital" id="Q" title="Q" onclick="click()">Q</button>
+              <button type="button" class="capital" id="R" title="R" onclick="click()">R</button>
+              <button type="button" class="capital" id="S" title="S" onclick="click()">S</button>
+              <button type="button" class="capital" id="T" title="T" onclick="click()">T</button>
+              <button type="button" class="capital" id="U" title="U" onclick="click()">U</button>
+              <button type="button" class="capital" id="V" title="V" onclick="click()">V</button>
+              <button type="button" class="capital" id="W" title="W" onclick="click()">W</button>
+              <button type="button" class="capital" id="X" title="X" onclick="click()">X</button>
+              <button type="button" class="capital" id="Y" title="Y" onclick="click()">Y</button>
+              <button type="button" class="capital" id="Z" title="Z" onclick="click()">Z</button>
+            </div>
+        </div>
+        <div class="tool-group clr" id="toolColors">
+            <label>lowercase</label>
+            <div class="tools">
+              <button type="button" class="lowercase" id="a" title="a">a</button>
+              <button type="button" class="lowercase" id="b" title="b">b</button>
+              <button type="button" class="lowercase" id="c" title="c">c</button>
+              <button type="button" class="lowercase" id="d" title="d">d</button>
+              <button type="button" class="lowercase" id="e" title="e">e</button>
+              <button type="button" class="lowercase" id="f" title="f">f</button>
+              <button type="button" class="lowercase" id="g" title="g">g</button>
+              <button type="button" class="lowercase" id="h" title="h">h</button>
+              <button type="button" class="lowercase" id="i" title="i">i</button>
+              <button type="button" class="lowercase" id="j" title="j">j</button>
+              <button type="button" class="lowercase" id="k" title="k">k</button>
+              <button type="button" class="lowercase" id="l" title="l">l</button>
+              <button type="button" class="lowercase" id="m" title="m">m</button>
+              <button type="button" class="lowercase" id="n" title="n">n</button>
+              <button type="button" class="lowercase" id="o" title="o">o</button>
+              <button type="button" class="lowercase" id="p" title="p">p</button>
+              <button type="button" class="lowercase" id="q" title="q">q</button>
+              <button type="button" class="lowercase" id="r" title="r">r</button>
+              <button type="button" class="lowercase" id="s" title="s">s</button>
+              <button type="button" class="lowercase" id="t" title="t">t</button>
+              <button type="button" class="lowercase" id="u" title="u">u</button>
+              <button type="button" class="lowercase" id="v" title="v">v</button>
+              <button type="button" class="lowercase" id="w" title="w">w</button>
+              <button type="button" class="lowercase" id="x" title="x">x</button>
+              <button type="button" class="lowercase" id="y" title="y">y</button>
+              <button type="button" class="lowercase" id="z" title="z">z</button>
+            </div>
+        </div>
+      <div class="tool-group clr" id="Colors">
+         <div class="tools">
+            <label>Emoji</label>
+        <div class="emoji">
+        <button type="button" class="lowercase" id="emoji1">😂</button>
+        <button type="button" class="lowercase" id="emoji2">😝</button>
+        <button type="button" class="lowercase" id="emoji3">😁</button>
+        <button type="button" class="lowercase" id="emoji4">😱</button>
+        <button type="button" class="lowercase" id="emoji5">😍</button>
+        <button type="button" class="lowercase" id="emoji6">😉</button>
+        <button type="button" class="lowercase" id="emoji7">😓</button>
+        <button type="button" class="lowercase" id="emoji8">😳</button>
+        <button type="button" class="lowercase" id="emoji9">😘</button>
+        <button type="button" class="lowercase" id="emoji10">😜</button>
+        <button type="button" class="lowercase" id="emoji11">😡</button>
+        <button type="button" class="lowercase" id="emoji12">👿</button>
+        <button type="button" class="lowercase" id="emoji13">💖</button>
+        <button type="button" class="lowercase" id="emoji14">💋</button>
+<!--         <button type="button" class="lowercase" id="emoji15"></button> -->
+<!--         <button type="button" class="lowercase" id="emoji16"></button>
+        <button type="button" class="lowercase" id="emoji17"></button> -->
+      </div>
+    </div>
+    </div>
+    </div>
+  
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+  </body>
+</html>
